@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression_Suite_1]">
+  <test name="Test">
+    <classes>
+      <class name="Maven_package.Form_moving_to_Initial_Review"/>
+      <class name="Maven_package.Request_ID_in_Manage_Tasks_tab"/>
+      <class name="Maven_package.reprocess_app"/>
+      <class name="Maven_package.reprocess_withdrawn"/>
+      <class name="Maven_package.DealReg_cannot_IGSResponse"/>
+      <class name="Maven_package.approve_ps"/>
+      <class name="Maven_package.InitialReview_cannot_Reassigned"/>
+      <class name="Maven_package.reprocess_expire"/>
+      <class name="Maven_package.Email_Notification_Blanket_ps"/>
+      <class name="Maven_package.Email_Notification_MSAcheck"/>
+      <class name="Maven_package.Email_Notification_MSAcomp"/>
+      <class name="Maven_package.Email_Notification_IGS"/>
+      <class name="Maven_package.DealReg_cannot_BlnktComplete"/>
+      <class name="Maven_package.reprocess_inc"/>
+      <class name="Maven_package.FederalCheck_cannot_Reassigned"/>
+      <class name="Maven_package.DupeReview_cannot_Reassigned"/>
+      <class name="Maven_package.IGSApproval_cannotbeReassigned_withoutIGS"/>
+      <class name="Maven_package.Request_ID_in_Tasks_tab"/>
+      <class name="Maven_package.DealReg_cannot_DupeComplete"/>
+      <class name="Maven_package.reprocess_rej"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="Maven_package.Request_ID_in_Tasks_tab">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.Request_ID_in_Tasks_tab -->
+      <class name="Maven_package.reprocess_rej">
+        <methods>
+          <include name="Reprocess_Reject"/>
+        </methods>
+      </class> <!-- Maven_package.reprocess_rej -->
+      <class name="Maven_package.Request_ID_in_Manage_Tasks_tab">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.Request_ID_in_Manage_Tasks_tab -->
+      <class name="Maven_package.reprocess_app">
+        <methods>
+          <include name="Reprocess_Approved"/>
+        </methods>
+      </class> <!-- Maven_package.reprocess_app -->
+      <class name="Maven_package.Form_moving_to_Initial_Review">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.Form_moving_to_Initial_Review -->
+      <class name="Maven_package.InitialReview_cannot_Reassigned">
+        <methods>
+          <include name="IR_cannot_be_reassigned"/>
+        </methods>
+      </class> <!-- Maven_package.InitialReview_cannot_Reassigned -->
+      <class name="Maven_package.IGSApproval_cannotbeReassigned_withoutIGS">
+        <methods>
+          <include name="IGS_Approval_cannot_Reassigned"/>
+        </methods>
+      </class> <!-- Maven_package.IGSApproval_cannotbeReassigned_withoutIGS -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Regression_Suite_1] -->

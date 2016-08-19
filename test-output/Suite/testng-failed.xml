@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="firefox"/>
+  <test name="Test In Internet Explorer(failed)" parallel="tests">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="Maven_package.Test_CrossBrowser">
+        <methods>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="testParameterWithXML"/>
+        </methods>
+      </class> <!-- Maven_package.Test_CrossBrowser -->
+    </classes>
+  </test> <!-- Test In Internet Explorer(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+  <test name="TestDemo">
+    <classes>
+      <class name="maven_package_1.DealReg_cannot_BlnktComplete"/>
+      <class name="maven_package_1.Email_Notification_Blanket_ps"/>
+      <class name="maven_package_1.DealReg_cannot_DupeComplete"/>
+      <class name="maven_package_1.DupeReview_cannot_Reassigned"/>
+      <class name="maven_package_1.IGSApproval_cannotbeReassigned_withoutIGS"/>
+      <class name="maven_package_1.Email_Notification_IGS"/>
+    </classes>
+  </test> <!-- TestDemo -->
+</suite> <!-- Suite -->

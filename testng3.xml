@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression_Suite_3" >
+  <test name="Test1">
+    <classes>
+      <class name="Maven_package.Testcase2842_linuxOne"/>
+      </classes>
+    </test>
+    <test name="Test2">
+    <classes>
+      <class name="Maven_package.TestCase2842_power"/>
+      </classes>
+    </test>
+     <test name="Test3">
+    <classes>
+      <class name="Maven_package.TestCase2842"/>
+      </classes>
+    </test>
+     <test name="Test4">
+    <classes>
+      <class name="Maven_package.TestCase3497_linuxOne"/>
+      </classes>
+    </test>
+     <test name="Test5">
+    <classes>
+      <class name="Maven_package.TestCase3497_power"/>
+      </classes>
+    </test>
+     <test name="Test6">
+    <classes>
+      <class name="Maven_package.TestCase3497"/>
+      </classes>
+    </test>
+     <test name="Test7">
+    <classes>
+      <class name="Maven_package.TestCase3505_LinuxOne"/>
+      </classes>
+    </test>
+     <test name="Test8">
+    <classes>
+      <class name="Maven_package.TestCase3505_power"/>
+      </classes>
+    </test>
+    <test name="Test9">
+    <classes>
+      <class name="Maven_package.TestCase3505"/>
+      </classes>
+    </test>
+    </suite>

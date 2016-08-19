@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression_Suite_3]">
+  <test name="Test1">
+    <classes>
+      <class name="Maven_package.Testcase2842_linuxOne"/>
+    </classes>
+  </test> <!-- Test1 -->
+  <test name="Test2">
+    <classes>
+      <class name="Maven_package.TestCase2842_power"/>
+    </classes>
+  </test> <!-- Test2 -->
+  <test name="Test3">
+    <classes>
+      <class name="Maven_package.TestCase2842"/>
+    </classes>
+  </test> <!-- Test3 -->
+  <test name="Test4">
+    <classes>
+      <class name="Maven_package.TestCase3497_linuxOne"/>
+    </classes>
+  </test> <!-- Test4 -->
+  <test name="Test5">
+    <classes>
+      <class name="Maven_package.TestCase3497_power"/>
+    </classes>
+  </test> <!-- Test5 -->
+  <test name="Test6">
+    <classes>
+      <class name="Maven_package.TestCase3497"/>
+    </classes>
+  </test> <!-- Test6 -->
+  <test name="Test7">
+    <classes>
+      <class name="Maven_package.TestCase3505_LinuxOne"/>
+    </classes>
+  </test> <!-- Test7 -->
+  <test name="Test8">
+    <classes>
+      <class name="Maven_package.TestCase3505_power"/>
+    </classes>
+  </test> <!-- Test8 -->
+  <test name="Test9">
+    <classes>
+      <class name="Maven_package.TestCase3505"/>
+    </classes>
+  </test> <!-- Test9 -->
+  <test name="Test1(failed)">
+    <classes>
+      <class name="Maven_package.TestCase3505">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3505 -->
+      <class name="Maven_package.TestCase3505_LinuxOne">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3505_LinuxOne -->
+      <class name="Maven_package.TestCase3497">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3497 -->
+      <class name="Maven_package.TestCase3497_power">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3497_power -->
+      <class name="Maven_package.TestCase3497_linuxOne">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3497_linuxOne -->
+      <class name="Maven_package.TestCase3505_power">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3505_power -->
+      <class name="Maven_package.Testcase2842_linuxOne">
+        <methods>
+          <include name="f_2842_linuxOne"/>
+        </methods>
+      </class> <!-- Maven_package.Testcase2842_linuxOne -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test name="Test2(failed)">
+    <classes>
+      <class name="Maven_package.TestCase3505">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3505 -->
+      <class name="Maven_package.TestCase3505_LinuxOne">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3505_LinuxOne -->
+      <class name="Maven_package.TestCase3497">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3497 -->
+      <class name="Maven_package.TestCase3497_power">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3497_power -->
+      <class name="Maven_package.TestCase3497_linuxOne">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3497_linuxOne -->
+      <class name="Maven_package.TestCase3505_power">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3505_power -->
+      <class name="Maven_package.TestCase2842_power">
+        <methods>
+          <include name="f_2842_power"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase2842_power -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test name="Test3(failed)">
+    <classes>
+      <class name="Maven_package.TestCase3505">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3505 -->
+      <class name="Maven_package.TestCase3505_LinuxOne">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3505_LinuxOne -->
+      <class name="Maven_package.TestCase2842">
+        <methods>
+          <include name="f_2842"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase2842 -->
+      <class name="Maven_package.TestCase3497">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3497 -->
+      <class name="Maven_package.TestCase3497_power">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3497_power -->
+      <class name="Maven_package.TestCase3497_linuxOne">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3497_linuxOne -->
+      <class name="Maven_package.TestCase3505_power">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3505_power -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test name="Test4(failed)">
+    <classes>
+      <class name="Maven_package.TestCase3505">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3505 -->
+      <class name="Maven_package.TestCase3505_LinuxOne">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3505_LinuxOne -->
+      <class name="Maven_package.TestCase3497">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3497 -->
+      <class name="Maven_package.TestCase3497_power">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3497_power -->
+      <class name="Maven_package.TestCase3497_linuxOne">
+        <methods>
+          <include name="f_3497_linuxOne"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3497_linuxOne -->
+      <class name="Maven_package.TestCase3505_power">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3505_power -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+  <test name="Test5(failed)">
+    <classes>
+      <class name="Maven_package.TestCase3505">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3505 -->
+      <class name="Maven_package.TestCase3505_LinuxOne">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3505_LinuxOne -->
+      <class name="Maven_package.TestCase3497">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3497 -->
+      <class name="Maven_package.TestCase3497_linuxOne">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3497_linuxOne -->
+      <class name="Maven_package.TestCase3497_power">
+        <methods>
+          <include name="f_3497_power"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3497_power -->
+      <class name="Maven_package.TestCase3505_power">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3505_power -->
+    </classes>
+  </test> <!-- Test5(failed) -->
+  <test name="Test7(failed)">
+    <classes>
+      <class name="Maven_package.TestCase3505">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3505 -->
+      <class name="Maven_package.TestCase3505_LinuxOne">
+        <methods>
+          <include name="startBrowser"/>
+          <include name="f_3505_LinuxOne"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3505_LinuxOne -->
+      <class name="Maven_package.TestCase3497">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3497 -->
+      <class name="Maven_package.TestCase3497_power">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3497_power -->
+      <class name="Maven_package.TestCase3497_linuxOne">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3497_linuxOne -->
+      <class name="Maven_package.TestCase3505_power">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3505_power -->
+    </classes>
+  </test> <!-- Test7(failed) -->
+  <test name="Test8(failed)">
+    <classes>
+      <class name="Maven_package.TestCase3505">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3505 -->
+      <class name="Maven_package.TestCase3505_LinuxOne">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3505_LinuxOne -->
+      <class name="Maven_package.TestCase3497">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3497 -->
+      <class name="Maven_package.TestCase3497_power">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3497_power -->
+      <class name="Maven_package.TestCase3497_linuxOne">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3497_linuxOne -->
+      <class name="Maven_package.TestCase3505_power">
+        <methods>
+          <include name="startBrowser"/>
+          <include name="f_3505_power"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3505_power -->
+    </classes>
+  </test> <!-- Test8(failed) -->
+  <test name="Test9(failed)">
+    <classes>
+      <class name="Maven_package.TestCase3505_LinuxOne">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3505_LinuxOne -->
+      <class name="Maven_package.TestCase3505">
+        <methods>
+          <include name="startBrowser"/>
+          <include name="f_3505"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3505 -->
+      <class name="Maven_package.TestCase3497">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3497 -->
+      <class name="Maven_package.TestCase3497_power">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3497_power -->
+      <class name="Maven_package.TestCase3497_linuxOne">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3497_linuxOne -->
+      <class name="Maven_package.TestCase3505_power">
+        <methods>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- Maven_package.TestCase3505_power -->
+    </classes>
+  </test> <!-- Test9(failed) -->
+</suite> <!-- Failed suite [Regression_Suite_3] -->
