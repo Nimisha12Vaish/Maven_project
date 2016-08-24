@@ -34,7 +34,7 @@ public class approve_ps {
 	 		e.printStackTrace();
 	 	}
 	 	Properties prop = new Properties();
-
+// testing
 	 	//load properties file
 	 	try {
 	 		prop.load(fileInput);
@@ -42,7 +42,7 @@ public class approve_ps {
 	 		e.printStackTrace();
 	 	} 
 	 	
-	 	
+	 //testing	
 	 	
 	  WebDriver driver= new FirefoxDriver();;
 	  	 driver.manage().window().maximize(); 
