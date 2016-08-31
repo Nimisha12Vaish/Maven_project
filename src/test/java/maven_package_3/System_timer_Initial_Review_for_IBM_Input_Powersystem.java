@@ -5,8 +5,10 @@ import java.util.Properties;
 //import junit.framework.Assert;
 
 
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -21,7 +23,8 @@ public class System_timer_Initial_Review_for_IBM_Input_Powersystem {
   @Test
   public void SystemTimer_Powersystem() throws Exception {
 	  
-	  WebDriver driver = new FirefoxDriver();
+	  System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
+		 ChromeDriver driver=new ChromeDriver();
 	  Property_use obj1 = new Property_use();
 	  Properties prop2 = obj1.property();
 	  W3_main obj = new W3_main();

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test" preserve-order="false">
+    <classes>
+      <class name="maven_package_1.Test_default_template_for_extend_power_system"/>
+      <class name="maven_package_1.Test_default_template_for_update_LinuxONE"/>
+      <class name="maven_package_1.Test_default_template_for_update_system_storage"/>
+      <class name="maven_package_1.Test_GPP_Validation_Power_System"/>
+      <class name="maven_package_1.Test_GPP_Validation_System_storage"/>
+      <class name="maven_package_1.Test_Incomplete_reprocess_system_storage"/>
+      <class name="maven_package_1.Test_Rejected_reprocess_LinuxONE"/>
+      <class name="maven_package_1.Test_Rejected_reprocess_power_system"/>
+      <class name="maven_package_1.Test_Submit_Extension_form_LinuxONE"/>
+      <class name="maven_package_1.Test_Submit_Extension_form_powersystem"/>
+      <class name="maven_package_1.Test_Submit_Extension_form_systemstorage"/>
+      <class name="maven_package_1.Test_Update_LinuxONE"/>
+      <class name="maven_package_1.Test_Update_Power_system"/>
+      <class name="maven_package_1.Test_Update_System_storage"/>
+      <class name="maven_package_2.TestAddComment"/>
+      <class name="maven_package_2.TestCase2842"/>
+      <class name="maven_package_2.Testcase2842_linuxOne"/>
+      <class name="maven_package_2.TestCase2842_power"/>
+      <class name="maven_package_2.TestCase3497"/>
+      <class name="maven_package_2.TestCase3497_linuxOne"/>
+      <class name="maven_package_2.TestCase3497_power"/>
+      <class name="maven_package_2.TestCase3505"/>
+      <class name="maven_package_2.TestCase3505_LinuxOne"/>
+      <class name="maven_package_2.TestCase3505_power"/>
+      <class name="maven_package_2.TestCode"/>
+      <class name="maven_package_2.Test_approve_ps"/>
+      <class name="maven_package_2.Test_BlanketMicroflow"/>
+      <class name="maven_package_2.Test_BlanketMicroflow_linuxOne"/>
+      <class name="maven_package_2.Test_BlanketMicroflow_ps"/>
+      <class name="maven_package_2.Test_MSA_microflow"/>
+      <class name="maven_package_2.Test_MSA_microflow_linuxOne"/>
+      <class name="maven_package_2.Test_MSA_microflow_ps"/>
+      <class name="maven_package_2.Test_proxy_voting_linuxOne"/>
+      <class name="maven_package_2.Test_proxy_voting_power"/>
+      <class name="maven_package_2.Test_proxy_voting_ss"/>
+    </classes>
+  </test> <!-- Command line test -->
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="maven_package_2.Test_proxy_voting_ss">
+        <methods>
+          <include name="f_proxy_voting_ss"/>
+        </methods>
+      </class> <!-- maven_package_2.Test_proxy_voting_ss -->
+      <class name="maven_package_2.TestCase3505_LinuxOne">
+        <methods>
+          <include name="f_3505_LinuxOne"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- maven_package_2.TestCase3505_LinuxOne -->
+      <class name="maven_package_2.Test_MSA_microflow_linuxOne">
+        <methods>
+          <include name="f_MSA_microflow_linuxOne"/>
+        </methods>
+      </class> <!-- maven_package_2.Test_MSA_microflow_linuxOne -->
+      <class name="maven_package_1.Test_Update_LinuxONE">
+        <methods>
+          <include name="startBrowser"/>
+          <include name="test_upd_from_app_linuxone"/>
+        </methods>
+      </class> <!-- maven_package_1.Test_Update_LinuxONE -->
+      <class name="maven_package_2.TestCase3505">
+        <methods>
+          <include name="startBrowser"/>
+          <include name="f_3505"/>
+        </methods>
+      </class> <!-- maven_package_2.TestCase3505 -->
+      <class name="maven_package_2.Test_BlanketMicroflow_ps">
+        <methods>
+          <include name="f_BlanketMicroflow_ps"/>
+        </methods>
+      </class> <!-- maven_package_2.Test_BlanketMicroflow_ps -->
+      <class name="maven_package_2.Testcase2842_linuxOne">
+        <methods>
+          <include name="f_2842_linuxOne"/>
+        </methods>
+      </class> <!-- maven_package_2.Testcase2842_linuxOne -->
+      <class name="maven_package_1.Test_default_template_for_update_LinuxONE">
+        <methods>
+          <include name="startBrowser"/>
+          <include name="Default_template_LinuxONE_update"/>
+        </methods>
+      </class> <!-- maven_package_1.Test_default_template_for_update_LinuxONE -->
+      <class name="maven_package_1.Test_Submit_Extension_form_LinuxONE">
+        <methods>
+          <include name="startBrowser"/>
+          <include name="Submit_extension_LinuxONE"/>
+        </methods>
+      </class> <!-- maven_package_1.Test_Submit_Extension_form_LinuxONE -->
+      <class name="maven_package_2.TestCase2842">
+        <methods>
+          <include name="f_2842"/>
+        </methods>
+      </class> <!-- maven_package_2.TestCase2842 -->
+      <class name="maven_package_2.TestCase3497">
+        <methods>
+          <include name="startBrowser"/>
+          <include name="f_3497"/>
+        </methods>
+      </class> <!-- maven_package_2.TestCase3497 -->
+      <class name="maven_package_1.Test_GPP_Validation_Power_System">
+        <methods>
+          <include name="startBrowser"/>
+          <include name="login_bp"/>
+          <include name="login_w3"/>
+          <include name="gpp_validation"/>
+        </methods>
+      </class> <!-- maven_package_1.Test_GPP_Validation_Power_System -->
+      <class name="maven_package_2.Test_proxy_voting_power">
+        <methods>
+          <include name="f_proxy_voting_power"/>
+        </methods>
+      </class> <!-- maven_package_2.Test_proxy_voting_power -->
+      <class name="maven_package_2.TestCase3497_linuxOne">
+        <methods>
+          <include name="startBrowser"/>
+          <include name="f_3497_linuxOne"/>
+        </methods>
+      </class> <!-- maven_package_2.TestCase3497_linuxOne -->
+      <class name="maven_package_2.Test_MSA_microflow_ps">
+        <methods>
+          <include name="f_MSA_microflow_ps"/>
+        </methods>
+      </class> <!-- maven_package_2.Test_MSA_microflow_ps -->
+      <class name="maven_package_1.Test_Incomplete_reprocess_system_storage">
+        <methods>
+          <include name="startBrowser"/>
+          <include name="Test_Inc_Rep"/>
+          <include name="Inc_systemstorage"/>
+        </methods>
+      </class> <!-- maven_package_1.Test_Incomplete_reprocess_system_storage -->
+      <class name="maven_package_1.Test_Update_Power_system">
+        <methods>
+          <include name="test_upd_from_app_PS"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- maven_package_1.Test_Update_Power_system -->
+      <class name="maven_package_2.TestCode">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- maven_package_2.TestCode -->
+      <class name="maven_package_1.Test_Submit_Extension_form_powersystem">
+        <methods>
+          <include name="startBrowser"/>
+          <include name="login_bp"/>
+          <include name="login_w3"/>
+          <include name="Submit_extension_powersystem"/>
+        </methods>
+      </class> <!-- maven_package_1.Test_Submit_Extension_form_powersystem -->
+      <class name="maven_package_1.Test_Update_System_storage">
+        <methods>
+          <include name="test_upd_from_app_SS"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- maven_package_1.Test_Update_System_storage -->
+      <class name="maven_package_2.TestCase3505_power">
+        <methods>
+          <include name="startBrowser"/>
+          <include name="f_3505_power"/>
+        </methods>
+      </class> <!-- maven_package_2.TestCase3505_power -->
+      <class name="maven_package_2.TestCase2842_power">
+        <methods>
+          <include name="f_2842_power"/>
+        </methods>
+      </class> <!-- maven_package_2.TestCase2842_power -->
+      <class name="maven_package_1.Test_Submit_Extension_form_systemstorage">
+        <methods>
+          <include name="Submit_extension_systemstorage"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- maven_package_1.Test_Submit_Extension_form_systemstorage -->
+      <class name="maven_package_1.Test_default_template_for_extend_power_system">
+        <methods>
+          <include name="login_bp"/>
+          <include name="login_w3"/>
+          <include name="startBrowser"/>
+          <include name="Default_template_power_extend"/>
+        </methods>
+      </class> <!-- maven_package_1.Test_default_template_for_extend_power_system -->
+      <class name="maven_package_2.TestAddComment">
+        <methods>
+          <include name="f"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- maven_package_2.TestAddComment -->
+      <class name="maven_package_1.Test_Rejected_reprocess_LinuxONE">
+        <methods>
+          <include name="startBrowser"/>
+          <include name="Test_Rej_linuxone"/>
+        </methods>
+      </class> <!-- maven_package_1.Test_Rejected_reprocess_LinuxONE -->
+      <class name="maven_package_1.Test_Rejected_reprocess_power_system">
+        <methods>
+          <include name="startBrowser"/>
+          <include name="Test_Rej_Rep"/>
+        </methods>
+      </class> <!-- maven_package_1.Test_Rejected_reprocess_power_system -->
+      <class name="maven_package_2.Test_MSA_microflow">
+        <methods>
+          <include name="f_MSA_microflow"/>
+        </methods>
+      </class> <!-- maven_package_2.Test_MSA_microflow -->
+      <class name="maven_package_2.Test_proxy_voting_linuxOne">
+        <methods>
+          <include name="f_proxy_voting_linuxOne"/>
+        </methods>
+      </class> <!-- maven_package_2.Test_proxy_voting_linuxOne -->
+      <class name="maven_package_1.Test_GPP_Validation_System_storage">
+        <methods>
+          <include name="login_bp"/>
+          <include name="login_w3"/>
+          <include name="startBrowser"/>
+          <include name="gpp_validation_system"/>
+        </methods>
+      </class> <!-- maven_package_1.Test_GPP_Validation_System_storage -->
+      <class name="maven_package_2.Test_BlanketMicroflow_linuxOne">
+        <methods>
+          <include name="f_BlanketMicroflow_linuxOne"/>
+        </methods>
+      </class> <!-- maven_package_2.Test_BlanketMicroflow_linuxOne -->
+      <class name="maven_package_1.Test_default_template_for_update_system_storage">
+        <methods>
+          <include name="Default_template_LinuxONE_update"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- maven_package_1.Test_default_template_for_update_system_storage -->
+      <class name="maven_package_2.Test_approve_ps">
+        <methods>
+          <include name="f_proxy_voting_power"/>
+        </methods>
+      </class> <!-- maven_package_2.Test_approve_ps -->
+      <class name="maven_package_2.Test_BlanketMicroflow">
+        <methods>
+          <include name="f_BlanketMicroflow"/>
+        </methods>
+      </class> <!-- maven_package_2.Test_BlanketMicroflow -->
+      <class name="maven_package_2.TestCase3497_power">
+        <methods>
+          <include name="f_3497_power"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- maven_package_2.TestCase3497_power -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
