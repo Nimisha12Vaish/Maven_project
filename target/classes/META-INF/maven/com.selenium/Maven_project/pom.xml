@@ -9,6 +9,19 @@
     <artifactId>selenium-java</artifactId>
     <version>2.53.0</version>
 </dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.servicemix.bundles/org.apache.servicemix.bundles.poi -->
+<dependency>
+    <groupId>org.apache.servicemix.bundles</groupId>
+    <artifactId>org.apache.servicemix.bundles.poi</artifactId>
+    <version>3.14_1</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.xmlbeans/xmlbeans -->
+<dependency>
+    <groupId>org.apache.xmlbeans</groupId>
+    <artifactId>xmlbeans</artifactId>
+    <version>2.6.0</version>
+</dependency>
 <dependency>
       <groupId>org.testng</groupId>
       <artifactId>testng</artifactId>
