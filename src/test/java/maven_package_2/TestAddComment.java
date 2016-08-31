@@ -9,6 +9,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.interactions.Actions;
@@ -22,11 +23,11 @@ import org.testng.annotations.Test;
 public class TestAddComment {
 
 	Properties prop1;
-	WebDriver driver;
+	 ChromeDriver driver;
 	
 	@BeforeTest
 	public void startBrowser(){
-		FirefoxProfile fprofile = new FirefoxProfile();
+		/*FirefoxProfile fprofile = new FirefoxProfile();
 		fprofile.setPreference("browser.download.dir", "C:\\WebDriverdownloadPDFs");
 		  fprofile.setPreference("browser.download.folderList", 2);
 		  //Set Preference to not show file download confirmation dialogue using MIME types Of different file extension types.
@@ -34,7 +35,9 @@ public class TestAddComment {
 		  fprofile.setPreference( "browser.download.manager.showWhenStarting", false );
 		  fprofile.setPreference( "pdfjs.disabled", true );
 		  
-		driver = new FirefoxDriver(fprofile);
+		driver = new FirefoxDriver(fprofile);*/
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
+		 ChromeDriver driver=new ChromeDriver();
 	}
 		
 

@@ -30,7 +30,7 @@ import org.testng.annotations.Test;
 public class TestCase3497 {
 	
 Properties prop1;
-WebDriver driver; 
+ChromeDriver driver; 
 	
 @BeforeTest
 public void startBrowser(){
@@ -46,7 +46,8 @@ public void startBrowser(){
 	/*
 	System.setProperty("webdriver.chrome.driver","C:\\Office_extra\\Set up\\chromedriver.exe" );
 	driver = new ChromeDriver(); */
-	driver = new FirefoxDriver();	
+	System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
+	 ChromeDriver driver=new ChromeDriver();
 }
 	
   @Test()

@@ -15,6 +15,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -23,14 +24,15 @@ import org.testng.annotations.Test;
 
 
 public class Test_approve_ps {
+	ChromeDriver driver;
 	
 	
-	WebDriver driver = new FirefoxDriver();
 	Properties prop1;
 	
 	@Test
 	public void f_proxy_voting_power() throws InterruptedException, IOException{
-		
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
+		 ChromeDriver driver=new ChromeDriver();
 		//to load pageObject.properties file
 		FileInputStream fis = null;
 		

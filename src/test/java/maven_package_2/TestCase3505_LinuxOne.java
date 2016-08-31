@@ -26,13 +26,14 @@ import org.testng.annotations.Test;
 public class TestCase3505_LinuxOne {
 	
 	Properties prop1 = null;
-	WebDriver  driver; 
+	ChromeDriver driver; 
 		
 	@BeforeTest
 	public void startBrowser(){
 		
 		//System.setProperty("webdriver.chrome.driver","C:\\Office_extra\\Set up\\chromedriver.exe" );
-		driver = new FirefoxDriver();	
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
+		 ChromeDriver driver=new ChromeDriver();
 		}
 		
 

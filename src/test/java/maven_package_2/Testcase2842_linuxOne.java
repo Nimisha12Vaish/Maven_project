@@ -23,12 +23,14 @@ import org.testng.annotations.Test;
 
 public class Testcase2842_linuxOne {
 	
-	WebDriver driver;
+	ChromeDriver driver;
 	Properties prop1 = null;
 	
 	@Test
 	public void f_2842_linuxOne() throws IOException, InterruptedException
 	{
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
+	 ChromeDriver driver=new ChromeDriver();
 		//Reading data from pageObject.properties file
 		FileInputStream fis = null;
 		try {
@@ -49,7 +51,7 @@ public class Testcase2842_linuxOne {
 		}
 		
 		//creating instance of Firefox
-		driver = new FirefoxDriver();
+		
 		
 		
 		/*System.setProperty("webdriver.chrome.driver","C:\\Office_extra\\Set up\\chromedriver.exe" );

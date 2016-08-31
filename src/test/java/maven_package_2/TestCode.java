@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -17,11 +18,12 @@ import org.testng.annotations.Test;
 
 public class TestCode {
 	
-	WebDriver driver;
+	ChromeDriver driver;
 	
 	@Test
 	public void f() throws InterruptedException{
-		driver = new FirefoxDriver();
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
+		 ChromeDriver driver=new ChromeDriver();
 		System.out.println("started");
 		driver.get("http://sit-stgpwblueweb.lexington.ibm.com:9084/DealRegW3/#RegistrationRequest/List");
 		

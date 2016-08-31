@@ -14,6 +14,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.interactions.Actions;
@@ -25,11 +26,12 @@ import org.testng.annotations.Test;
 public class TestCase3505_power {
 	
 	Properties prop1 = null;
-	WebDriver  driver; 
+	ChromeDriver driver; 
 		
 	@BeforeTest
 	public void startBrowser(){
-		driver = new FirefoxDriver();	
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
+		 ChromeDriver driver=new ChromeDriver();	
 	}
 		
 

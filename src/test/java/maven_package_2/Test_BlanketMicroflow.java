@@ -11,6 +11,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -21,12 +22,13 @@ import com.thoughtworks.selenium.Selenium;
 
 public class Test_BlanketMicroflow {
 
-	WebDriver driver = new FirefoxDriver();
+	ChromeDriver driver;
 	Properties prop1;
 	
 	@Test
 	public void f_BlanketMicroflow() throws InterruptedException{
-		
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
+		 ChromeDriver driver=new ChromeDriver();
 		//to load pageObject.properties file
 		FileInputStream fis = null;
 		
