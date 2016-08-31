@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -43,7 +44,8 @@ public class FederalCheck_cannot_Reassigned {
 		} 
 	  
 	  
-	  WebDriver driver= new FirefoxDriver();
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
+		 ChromeDriver driver=new ChromeDriver();
 	  	 driver.manage().window().maximize(); 
 	  	    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	  	    driver.get(prop.getProperty("W3_home_page_url"));
@@ -70,10 +72,10 @@ wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(prop.getProperty
 wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(prop.getProperty("W3_select_Federal_check")))).click();  //federal check
 		//Thread.sleep(1000);
 		 
-		wait.until(
-				ExpectedConditions.presenceOfElementLocated(
-						By.xpath(prop.getProperty("W3_Admin_managetask_apply"))));  //apply
-		driver.findElement(By.xpath(prop.getProperty("W3_Admin_managetask_apply"))).click();// click apply
+		//wait.until(
+		//		ExpectedConditions.presenceOfElementLocated(
+		//				By.xpath(prop.getProperty("W3_Admin_managetask_apply"))));  //apply
+		//driver.findElement(By.xpath(prop.getProperty("W3_Admin_managetask_apply"))).click();// click apply
 		driver.findElement(By.xpath(prop.getProperty("W3_Admin_managetask_apply"))).click();  //click apply
 		System.out.println("All Federal check appear");
 		
@@ -82,9 +84,9 @@ wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(prop.getProperty
 		Actions act=new Actions(driver);
 		act.contextClick(driver.findElement(By.xpath(prop.getProperty("W3_Admin_task_first_element")))).perform(); //first task 
 		act.sendKeys(Keys.RETURN).perform();
-		wait.until(
-				ExpectedConditions.presenceOfElementLocated(
-						By.xpath(prop.getProperty("W3_Admin_task_reassign"))));
+		//wait.until(
+		//		ExpectedConditions.presenceOfElementLocated(
+		//				By.xpath(prop.getProperty("W3_Admin_task_reassign"))));
 		driver.findElement(By.xpath(prop.getProperty("W3_managetask_reassign_userid"))).sendKeys(prop.getProperty("W3_managetask_reassign_username"));//reassign
 		//Thread.sleep(10000);
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(prop.getProperty("W3_managetask_reassign_submit")))).click();//submit

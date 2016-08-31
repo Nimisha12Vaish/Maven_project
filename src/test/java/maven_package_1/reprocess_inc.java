@@ -2,6 +2,7 @@ package maven_package_1;
 
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -11,6 +12,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -40,7 +42,8 @@ public class reprocess_inc {
 		} 
 	  
 	  
-	  WebDriver driver= new FirefoxDriver();
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
+		 ChromeDriver driver=new ChromeDriver();
 	  	 driver.manage().window().maximize(); 
 	  	    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	  	    driver.get(prop.getProperty("W3_Reg_url"));

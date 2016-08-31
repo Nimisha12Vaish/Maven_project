@@ -18,6 +18,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -33,13 +34,14 @@ import resources.Property_use;
 
 public class Test_GPP_Validation_System_storage extends Login {
 	
-	WebDriver driver;
+	ChromeDriver driver;
 	//Properties prop = null;
 	@BeforeTest
 	public void startBrowser()
 	{
 		 
-		driver = new FirefoxDriver();
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
+		 ChromeDriver driver=new ChromeDriver();
 	}
 	
 	 @Test

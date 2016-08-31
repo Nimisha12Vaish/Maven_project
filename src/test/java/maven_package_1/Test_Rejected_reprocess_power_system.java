@@ -2,6 +2,7 @@ package maven_package_1;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
+
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -9,6 +10,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -23,13 +25,14 @@ import resources.Property_use;
 public class Test_Rejected_reprocess_power_system {
  
 	  
-	  WebDriver driver;
+	  ChromeDriver driver;
 		//Properties prop = null;
 		@BeforeTest
 		public void startBrowser()
 		{
 			 
-			driver = new FirefoxDriver();
+			System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
+			 ChromeDriver driver=new ChromeDriver();
 		}
 		
 		 @Test

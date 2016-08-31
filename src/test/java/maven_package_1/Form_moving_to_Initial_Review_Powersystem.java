@@ -4,6 +4,7 @@ import java.util.Properties;
 
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -13,13 +14,14 @@ import resources.Property_use;
 import resources.W3_main;
 
 public class Form_moving_to_Initial_Review_Powersystem {
-	WebDriver driver;
+	ChromeDriver driver;
 	//Properties prop = null;
 	@BeforeTest
 	public void startBrowser()
 	{
 		 
-		driver = new FirefoxDriver();
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
+		 ChromeDriver driver=new ChromeDriver();
 	}
   @Test
   public void IR_created_powersystem() throws Exception {

@@ -15,6 +15,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -44,8 +45,8 @@ public void Email_Notify_IR() throws InterruptedException {
 	 		e.printStackTrace();
 	 	} 
 	 	
-		  WebDriver driver = new FirefoxDriver();
-
+	 	System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
+		 ChromeDriver driver=new ChromeDriver();
 			driver.manage().window().maximize();
 			driver.get(prop.getProperty("W3_URL"));
 			driver.manage().timeouts().implicitlyWait(80, TimeUnit.SECONDS);

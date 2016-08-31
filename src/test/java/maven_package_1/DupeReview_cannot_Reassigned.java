@@ -44,7 +44,8 @@ public class DupeReview_cannot_Reassigned {
 		} 
 	  
 	  
-	  WebDriver driver= new FirefoxDriver();
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
+		 ChromeDriver driver=new ChromeDriver();
 	  	 driver.manage().window().maximize(); 
 	  	    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	  	    driver.get(prop.getProperty("W3_home_page_url"));
@@ -71,10 +72,10 @@ public class DupeReview_cannot_Reassigned {
          wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(prop.getProperty("W3_select_Dupe_review")))).click();  //dupe review
 		Thread.sleep(3000);
 		System.out.println(wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(prop.getProperty("W3_managetask_task_getText")))).getText());  //dupe review get text
-		wait.until(
-				ExpectedConditions.presenceOfElementLocated(
-						By.xpath(prop.getProperty("W3_Admin_managetask_apply"))));  //apply
-		driver.findElement(By.xpath(prop.getProperty("W3_Admin_managetask_apply"))).click();// click apply
+		//wait.until(
+		//		ExpectedConditions.presenceOfElementLocated(
+		//				By.xpath(prop.getProperty("W3_Admin_managetask_apply"))));  //apply
+		//driver.findElement(By.xpath(prop.getProperty("W3_Admin_managetask_apply"))).click();// click apply
 		driver.findElement(By.xpath(prop.getProperty("W3_Admin_managetask_apply"))).click();  //click apply
 		System.out.println("All Dupe Review appear");
 		
@@ -83,9 +84,9 @@ public class DupeReview_cannot_Reassigned {
 		Actions act=new Actions(driver);
 		act.contextClick(driver.findElement(By.xpath(prop.getProperty("W3_Admin_task_first_element")))).perform(); //first task 
 		act.sendKeys(Keys.RETURN).perform();
-		wait.until(
-				ExpectedConditions.presenceOfElementLocated(
-						By.xpath(prop.getProperty("W3_Admin_task_reassign"))));
+	//	wait.until(
+	//			ExpectedConditions.presenceOfElementLocated(
+	//					By.xpath(prop.getProperty("W3_Admin_task_reassign"))));
 		driver.findElement(By.xpath(prop.getProperty("W3_managetask_reassign_userid"))).sendKeys(prop.getProperty("W3_managetask_reassign_username"));//reassign
 		//Thread.sleep(10000);
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(prop.getProperty("W3_managetask_reassign_submit")))).click();//submit

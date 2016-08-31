@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -44,7 +45,8 @@ public class DealReg_cannot_IGSResponse {
 		} 
 	  
 	  
-	  WebDriver driver= new FirefoxDriver();
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
+		 ChromeDriver driver=new ChromeDriver();
 	  	 driver.manage().window().maximize(); 
 	  	    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	  	    driver.get(prop.getProperty("W3_home_page_url"));

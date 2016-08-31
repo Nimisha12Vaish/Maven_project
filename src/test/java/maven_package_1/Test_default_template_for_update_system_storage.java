@@ -2,6 +2,7 @@ package maven_package_1;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
+
 import java.io.File;
 import java.util.Properties;
 
@@ -12,6 +13,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -25,13 +27,14 @@ import resources.Login;
 import resources.Property_use;
 
 public class Test_default_template_for_update_system_storage {
-	WebDriver driver;
+	ChromeDriver driver;
 	//Properties prop = null;
 	@BeforeTest
 	public void startBrowser()
 	{
 		 
-		driver = new FirefoxDriver();
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
+		 ChromeDriver driver=new ChromeDriver();
 	}
   @Test
   public void Default_template_LinuxONE_update() throws Exception {
