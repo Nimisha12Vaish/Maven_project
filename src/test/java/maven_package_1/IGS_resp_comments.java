@@ -26,7 +26,7 @@ public class IGS_resp_comments {
   @Test
   public void IGS_response_comments()throws InterruptedException {
 	  
-	  File file = new File("C:\\Users\\IBM_ADMIN\\Maven\\Maven_project\\src\\test\\java\\property_files\\config_regression.properties");
+	  File file = new File("C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\java\\property_files\\config_regression.properties");
 
 		FileInputStream fileInput = null;
 		try {

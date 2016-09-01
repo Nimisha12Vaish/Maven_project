@@ -26,7 +26,7 @@ import org.testng.annotations.Test;
 public class MSACheck_cannotbeReassigned_toHosting  {
   @Test
   public void MSA_Check_cannot_reassigned() throws InterruptedException {
-	  File file = new File("C:\\Users\\IBM_ADMIN\\Maven\\Maven_project\\src\\test\\java\\property_files\\config_regression.properties");
+	  File file = new File("C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\java\\property_files\\config_regression.properties");
 
 		FileInputStream fileInput = null;
 		try {

@@ -12,7 +12,7 @@ public class Property_use {
   @Test
   public Properties property() {
 	  
-	  File file = new File("C:\\Users\\IBM_ADMIN\\Maven\\Maven_project\\src\\test\\java\\property_files\\Property_file.properties");
+	  File file = new File("C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\java\\property_files\\Property_file.properties");
 	  FileInputStream fileinput = null;
 	  try
 	  {

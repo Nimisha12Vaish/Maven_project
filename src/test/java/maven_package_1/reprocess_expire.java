@@ -24,7 +24,7 @@ public class reprocess_expire {
   @Test
   public void Reprocess_Expire()throws InterruptedException {
 	  
-	  File file = new File("C:\\Users\\IBM_ADMIN\\Maven\\Maven_project\\src\\test\\java\\property_files\\config_regression.properties");
+	  File file = new File("C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\java\\property_files\\config_regression.properties");
 
 		FileInputStream fileInput = null;
 		try {

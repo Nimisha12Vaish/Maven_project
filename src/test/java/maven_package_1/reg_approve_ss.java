@@ -28,7 +28,7 @@ public class reg_approve_ss {
   @Test
   public void Email_notify_Approve_system_storage()throws InterruptedException {
 	  
-	  File file = new File("C:\\Users\\IBM_ADMIN\\Maven\\Maven_project\\src\\test\\java\\property_files\\config_New_1.properties");
+	  File file = new File("C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\java\\property_files\\config_New_1.properties");
 
 	 	FileInputStream fileInput = null;
 	 	try {

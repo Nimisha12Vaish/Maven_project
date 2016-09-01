@@ -26,7 +26,7 @@ import org.testng.annotations.Test;
 public class IGSApproval_cannotbeReassigned_withoutIGS {
   @Test
   public void IGS_Approval_cannot_Reassigned() throws InterruptedException {
-	  File file = new File("C:\\Users\\IBM_ADMIN\\Maven\\Maven_project\\src\\test\\java\\property_files\\config_regression.properties");
+	  File file = new File("C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\java\\property_files\\config_regression.properties");
 
 		FileInputStream fileInput = null;
 		try {

@@ -35,7 +35,7 @@ public class TestCase2842 {
 		//Reading data from pageObject.properties file
 		FileInputStream fis = null;
 		try {
-			fis = new FileInputStream("C:\\Office_Work\\deal_reg\\TC_3505\\DR_TC_Maven\\src\\test\\resources\\pageObject.properties");
+			fis = new FileInputStream("C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\java\\property_files\\pageObject.properties");
 			
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block

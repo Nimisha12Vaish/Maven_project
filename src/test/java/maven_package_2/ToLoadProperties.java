@@ -17,7 +17,7 @@ public class ToLoadProperties {
 	 //Reading data from pageObject.properties file
 	  FileInputStream fis = null;
 	try {
-		fis = new FileInputStream("C:\\Users\\IBM_ADMIN\\Maven\\Maven_project\\src\\test\\java\\property_files\\pageObject.properties");
+		fis = new FileInputStream("C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\java\\property_files\\pageObject.properties");
 	} catch (FileNotFoundException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();

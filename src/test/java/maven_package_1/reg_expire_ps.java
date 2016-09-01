@@ -28,7 +28,7 @@ public class reg_expire_ps {
 	@Test
 	public void Email_Notify_expire_ps() throws InterruptedException {
 		File file = new File(
-				"C:\\Users\\IBM_ADMIN\\Maven\\Maven_project\\src\\test\\java\\property_files\\config_New_1.properties");
+				"C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\java\\property_files\\config_New_1.properties");
 
 		FileInputStream fileInput = null;
 		try {

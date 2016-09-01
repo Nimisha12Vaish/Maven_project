@@ -28,7 +28,7 @@ public class DealReg_cannot_DupeComplete {
   @Test
   public void DRR_cannot_Dupe_complete() throws InterruptedException {
 	 
-	  File file = new File("C:\\Users\\IBM_ADMIN\\Maven\\Maven_project\\src\\test\\java\\property_files\\config_regression.properties");
+	  File file = new File("C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\java\\property_files\\config_regression.properties");
 
 		FileInputStream fileInput = null;
 		try {

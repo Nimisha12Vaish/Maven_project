@@ -27,7 +27,7 @@ public class Email_Notification_Blanket_ps {
 	@Test
 	public void Email_Notify_Blanket_PS() throws InterruptedException {
 		
-		File file = new File("C:\\Users\\IBM_ADMIN\\Maven\\Maven_project\\src\\test\\java\\property_files\\config1.properties");
+		File file = new File("C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\java\\property_files\\config1.properties");
 
 	 	FileInputStream fileInput = null;
 	 	try {

@@ -27,7 +27,7 @@ import org.testng.annotations.Test;
 public class reg_withdrawn_ss {
   @Test
   public void Email_withdrawn_SS()throws InterruptedException {
-	  File file = new File("C:\\Users\\IBM_ADMIN\\Maven\\Maven_project\\src\\test\\java\\property_files\\config_New_1.properties");
+	  File file = new File("C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\java\\property_files\\config_New_1.properties");
 
 	 	FileInputStream fileInput = null;
 	 	try {

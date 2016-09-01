@@ -25,7 +25,7 @@ public class Email_Notification_IGS {
 	 @Test
 public void Email_Notify_IGS() throws InterruptedException {
 		
-		File file = new File("C:\\Users\\IBM_ADMIN\\Maven\\Maven_project\\src\\test\\java\\property_files\\config1.properties");
+		File file = new File("C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\java\\property_files\\config1.properties");
 
 	 	FileInputStream fileInput = null;
 	 	try {
