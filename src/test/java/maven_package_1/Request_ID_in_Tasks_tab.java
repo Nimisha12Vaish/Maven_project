@@ -22,17 +22,19 @@ import resources.Property_use;
 public class Request_ID_in_Tasks_tab {
 	ChromeDriver driver;
 	//Properties prop = null;
-	@BeforeTest
+	/*@BeforeTest
 	public void startBrowser()
 	{
 		 
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
 		 ChromeDriver driver=new ChromeDriver();
-	}
+	}*/
   @Test
   public void Request_id_tasks() throws Exception {
 	  Property_use obj1 = new Property_use();
 	  Properties prop2 = obj1.property();
+	  System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
+		 ChromeDriver driver=new ChromeDriver();
 	  Login obj = new Login();
 	  obj.login_w3(driver);
 	  driver.manage().timeouts().implicitlyWait(180, TimeUnit.SECONDS);

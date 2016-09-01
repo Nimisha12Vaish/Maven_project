@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="maven_package_1.DealReg_cannot_DupeComplete">
+      <class name="maven_package_1.Test_Update_LinuxONE">
         <methods>
-          <include name="DRR_cannot_Dupe_complete"/>
+          <include name="test_upd_from_app_linuxone"/>
         </methods>
-      </class> <!-- maven_package_1.DealReg_cannot_DupeComplete -->
+      </class> <!-- maven_package_1.Test_Update_LinuxONE -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

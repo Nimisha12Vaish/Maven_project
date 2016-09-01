@@ -28,18 +28,18 @@ import resources.W3_main;
 public class Test_Update_LinuxONE {
 	ChromeDriver driver;
 	//Properties prop = null;
-	@BeforeTest
-	public void startBrowser()
-	{
-		 
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
-		 ChromeDriver driver=new ChromeDriver();
-	}
+	//@BeforeTest
+	//public void startBrowser()
+	//{
+	
+	//}
 	
   @Test
   public void test_upd_from_app_linuxone() throws Exception {
 	  Property_use obj1 = new Property_use();
 	  Properties prop2 = obj1.property();
+	  System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
+		 ChromeDriver driver=new ChromeDriver();
 	 
 	  W3_main obj = new W3_main();
 	  String RequestNo = obj.W3e2e_assign_LinuxONE(driver);

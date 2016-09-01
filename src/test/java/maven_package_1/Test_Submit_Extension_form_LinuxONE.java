@@ -20,19 +20,21 @@ import resources.W3_main;
 public class Test_Submit_Extension_form_LinuxONE {
 	ChromeDriver driver;
 	//Properties prop = null;
-	@BeforeTest
+	/*@BeforeTest
 	public void startBrowser()
 	{
 		 
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
 		 ChromeDriver driver=new ChromeDriver();
-	}
+	}*/
 	
   @Test
   public void Submit_extension_LinuxONE() throws Exception {
 	  
 	  Property_use obj1 = new Property_use();
 	  Properties prop2 = obj1.property();
+	  System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
+		 ChromeDriver driver=new ChromeDriver();
 	 
 	  W3_main obj = new W3_main();
 	  String RequestNo = obj.W3e2e_assign_LinuxONE(driver);

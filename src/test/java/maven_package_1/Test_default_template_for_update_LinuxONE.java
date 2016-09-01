@@ -29,17 +29,18 @@ public class Test_default_template_for_update_LinuxONE {
 	ChromeDriver driver;
 	//Properties prop = null;
 	@BeforeTest
-	public void startBrowser()
+	/*public void startBrowser()
 	{
 		 
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
-		 ChromeDriver driver=new ChromeDriver();
-	}
+		
+	}*/
   @Test
   public void Default_template_LinuxONE_update() throws Exception {
 	  
 	  Property_use obj1 = new Property_use();
 	  Properties prop2 = obj1.property();
+	  System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
+		 ChromeDriver driver=new ChromeDriver();
 	  //Login obj = new Login();
 	  //obj.login_w3(driver);
 	  //driver.manage().timeouts().implicitlyWait(180, TimeUnit.SECONDS);

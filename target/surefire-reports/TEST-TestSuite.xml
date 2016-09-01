@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="1" time="1,322.321" errors="0" skipped="64" tests="65" name="TestSuite">
+<testsuite failures="1" time="1,323.544" errors="0" skipped="64" tests="65" name="TestSuite">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="Maven_Project_1"/>
@@ -26,7 +26,7 @@
     <property name="ProgramFiles" value="C:\Program Files (x86)"/>
     <property name="user.language" value="en"/>
     <property name="JOB_BASE_NAME" value="Maven_Project_1"/>
-    <property name="BUILD_DISPLAY_NAME" value="#7"/>
+    <property name="BUILD_DISPLAY_NAME" value="#8"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_51\jre\bin"/>
     <property name="LOCALAPPDATA" value="C:\windows\system32\config\systemprofile\AppData\Local"/>
     <property name="java.version" value="1.7.0_51"/>
@@ -38,7 +38,7 @@
     <property name="COMMPath" value="C:\Program Files\Lenovo\Communications Utility"/>
     <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_51\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="7"/>
+    <property name="BUILD_ID" value="8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -72,7 +72,7 @@
     <property name="POM_GROUPID" value="com.selenium"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
     <property name="user.home" value="C:\"/>
-    <property name="BUILD_TAG" value="jenkins-Maven_Project_1-7"/>
+    <property name="BUILD_TAG" value="jenkins-Maven_Project_1-8"/>
     <property name="JENKINS_SERVER_COOKIE" value="a32a4a8588769655"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -86,7 +86,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="C:\Users\IBM_ADMIN\Downloads\apache-maven-3.3.9-bin\apache-maven-3.3.9"/>
     <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven32-agent-1.7.jar;C:\Users\IBM_ADMIN\Downloads\apache-maven-3.3.9-bin\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar;C:\Users\IBM_ADMIN\Downloads\apache-maven-3.3.9-bin\apache-maven-3.3.9/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven32Main C:\Users\IBM_ADMIN\Downloads\apache-maven-3.3.9-bin\apache-maven-3.3.9 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-2.60.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven32-interceptor-1.7.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.7.jar 58460"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven32Main C:\Users\IBM_ADMIN\Downloads\apache-maven-3.3.9-bin\apache-maven-3.3.9 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-2.60.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven32-interceptor-1.7.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.7.jar 59801"/>
     <property name="IBM_RATIONAL_RFT_ECLIPSE_DIR" value="C:\Program Files (x86)\IBM\SDP"/>
     <property name="Path" value="C:\Program Files\Java\jdk1.7.0_51/bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\ThinkPad\Bluetooth Software\;C:\Program Files\ThinkPad\Bluetooth Software\syswow64;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\IBM\Personal Communications\;C:\Program Files (x86)\IBM\Trace Facility\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\13.0\DLLShared\;C:\Program Files (x86)\IBM\Mobility Client\;C:\Program Files\Java\jdk1.7.0_51\bin;C:\Users\IBM_ADMIN\Documents\DDFramework\apache-ant-1.9.4-bin\apache-ant-1.9.4\bin;"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
@@ -102,7 +102,7 @@
     <property name="HUDSON_HOME" value="C:\Program Files (x86)\Jenkins"/>
     <property name="PATH+MAVEN" value="C:\Users\IBM_ADMIN\Downloads\apache-maven-3.3.9-bin\apache-maven-3.3.9/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/Maven_Project_1/7/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Maven_Project_1/8/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="IBM_RATIONAL_RFT_INSTALL_DIR" value="C:\Program Files (x86)\IBM\SDP\FunctionalTester\bin"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
@@ -117,7 +117,7 @@
 "/>
     <property name="MAVEN_HOME" value="C:\Users\IBM_ADMIN\Downloads\apache-maven-3.3.9-bin\apache-maven-3.3.9"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="7"/>
+    <property name="BUILD_NUMBER" value="8"/>
     <property name="BURN_AUTOPLAY" value="C:\Program Files (x86)\Roxio 2011\Roxio Burn\"/>
     <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
@@ -135,15 +135,15 @@
     <property name="PSModulePath" value="C:\windows\system32\WindowsPowerShell\v1.0\Modules\"/>
     <property name="PCOMM_Root" value="C:\Program Files (x86)\IBM\Personal Communications\"/>
   </properties>
-  <testcase time="62.966" classname="maven_package_2.TestAddComment" name="startBrowser">
+  <testcase time="63.011" classname="maven_package_2.TestAddComment" name="startBrowser">
     <failure message="unknown error: unable to discover open pages
   (Driver info: chromedriver=2.11.298604 (75ea2fdb5c87f133a8e1b8da16f6091fb7d5321e),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 60.92 seconds
+Command duration or timeout: 60.97 seconds
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
 System info: host: &apos;ADMINIB-D2MM1F7&apos;, ip: &apos;9.120.231.200&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: unable to discover open pages
   (Driver info: chromedriver=2.11.298604 (75ea2fdb5c87f133a8e1b8da16f6091fb7d5321e),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 60.92 seconds
+Command duration or timeout: 60.97 seconds
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
 System info: host: &apos;ADMINIB-D2MM1F7&apos;, ip: &apos;9.120.231.200&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
@@ -164,70 +164,70 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 </failure>
     <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@6a0f0c67
 </system-out>
-    <system-err>Starting ChromeDriver (v2.11.298604 (75ea2fdb5c87f133a8e1b8da16f6091fb7d5321e)) on port 22099
+    <system-err>Starting ChromeDriver (v2.11.298604 (75ea2fdb5c87f133a8e1b8da16f6091fb7d5321e)) on port 48746
 Only local connections are allowed.
 log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
 log4j:WARN Please initialize the log4j system properly.
 </system-err>
   </testcase>
-  <testcase time="62.967" classname="maven_package_2.TestAddComment" name="startBrowser">
+  <testcase time="63.026" classname="maven_package_2.TestAddComment" name="startBrowser">
     <skipped/>
   </testcase>
-  <testcase time="62.967" classname="maven_package_2.TestAddComment" name="startBrowser">
+  <testcase time="63.026" classname="maven_package_2.TestAddComment" name="startBrowser">
     <skipped/>
   </testcase>
-  <testcase time="62.967" classname="maven_package_2.TestAddComment" name="startBrowser">
+  <testcase time="63.026" classname="maven_package_2.TestAddComment" name="startBrowser">
     <skipped/>
   </testcase>
-  <testcase time="62.967" classname="maven_package_2.TestAddComment" name="startBrowser">
+  <testcase time="63.026" classname="maven_package_2.TestAddComment" name="startBrowser">
     <skipped/>
   </testcase>
-  <testcase time="62.967" classname="maven_package_2.TestAddComment" name="startBrowser">
+  <testcase time="63.026" classname="maven_package_2.TestAddComment" name="startBrowser">
     <skipped/>
   </testcase>
-  <testcase time="62.968" classname="maven_package_2.TestAddComment" name="startBrowser">
+  <testcase time="63.026" classname="maven_package_2.TestAddComment" name="startBrowser">
     <skipped/>
   </testcase>
-  <testcase time="62.968" classname="maven_package_2.TestAddComment" name="startBrowser">
+  <testcase time="63.026" classname="maven_package_2.TestAddComment" name="startBrowser">
     <skipped/>
   </testcase>
-  <testcase time="62.968" classname="maven_package_2.TestAddComment" name="startBrowser">
+  <testcase time="63.026" classname="maven_package_2.TestAddComment" name="startBrowser">
     <skipped/>
   </testcase>
-  <testcase time="62.968" classname="maven_package_2.TestAddComment" name="startBrowser">
+  <testcase time="63.026" classname="maven_package_2.TestAddComment" name="startBrowser">
     <skipped/>
   </testcase>
-  <testcase time="62.968" classname="maven_package_2.TestAddComment" name="startBrowser">
+  <testcase time="63.026" classname="maven_package_2.TestAddComment" name="startBrowser">
     <skipped/>
   </testcase>
-  <testcase time="62.968" classname="maven_package_2.TestAddComment" name="startBrowser">
+  <testcase time="63.026" classname="maven_package_2.TestAddComment" name="startBrowser">
     <skipped/>
   </testcase>
-  <testcase time="62.968" classname="maven_package_2.TestAddComment" name="startBrowser">
+  <testcase time="63.026" classname="maven_package_2.TestAddComment" name="startBrowser">
     <skipped/>
   </testcase>
-  <testcase time="62.968" classname="maven_package_2.TestAddComment" name="startBrowser">
+  <testcase time="63.026" classname="maven_package_2.TestAddComment" name="startBrowser">
     <skipped/>
   </testcase>
-  <testcase time="62.968" classname="maven_package_2.TestAddComment" name="startBrowser">
+  <testcase time="63.026" classname="maven_package_2.TestAddComment" name="startBrowser">
     <skipped/>
   </testcase>
-  <testcase time="62.968" classname="maven_package_2.TestAddComment" name="startBrowser">
+  <testcase time="63.026" classname="maven_package_2.TestAddComment" name="startBrowser">
     <skipped/>
   </testcase>
-  <testcase time="62.968" classname="maven_package_2.TestAddComment" name="startBrowser">
+  <testcase time="63.026" classname="maven_package_2.TestAddComment" name="startBrowser">
     <skipped/>
   </testcase>
-  <testcase time="62.968" classname="maven_package_2.TestAddComment" name="startBrowser">
+  <testcase time="63.026" classname="maven_package_2.TestAddComment" name="startBrowser">
     <skipped/>
   </testcase>
-  <testcase time="62.968" classname="maven_package_2.TestAddComment" name="startBrowser">
+  <testcase time="63.026" classname="maven_package_2.TestAddComment" name="startBrowser">
     <skipped/>
   </testcase>
-  <testcase time="62.968" classname="maven_package_2.TestAddComment" name="startBrowser">
+  <testcase time="63.026" classname="maven_package_2.TestAddComment" name="startBrowser">
     <skipped/>
   </testcase>
-  <testcase time="62.968" classname="maven_package_2.TestAddComment" name="startBrowser">
+  <testcase time="63.026" classname="maven_package_2.TestAddComment" name="startBrowser">
     <skipped/>
   </testcase>
   <testcase time="0" classname="maven_package_1.Test_Incomplete_reprocess_system_storage" name="Inc_systemstorage">
@@ -236,37 +236,37 @@ log4j:WARN Please initialize the log4j system properly.
   <testcase time="0" classname="maven_package_1.Test_Incomplete_reprocess_system_storage" name="Test_Inc_Rep">
     <skipped/>
   </testcase>
-  <testcase time="0" classname="maven_package_1.Test_GPP_Validation_Power_System" name="login_bp">
+  <testcase time="0.001" classname="maven_package_1.Test_GPP_Validation_Power_System" name="login_bp">
     <skipped/>
   </testcase>
-  <testcase time="0" classname="maven_package_1.Test_GPP_Validation_Power_System" name="login_w3">
+  <testcase time="0.001" classname="maven_package_1.Test_GPP_Validation_Power_System" name="login_w3">
     <skipped/>
   </testcase>
-  <testcase time="0" classname="maven_package_1.Test_GPP_Validation_Power_System" name="gpp_validation">
+  <testcase time="0.001" classname="maven_package_1.Test_GPP_Validation_Power_System" name="gpp_validation">
     <skipped/>
   </testcase>
-  <testcase time="0" classname="maven_package_1.Test_GPP_Validation_System_storage" name="login_bp">
+  <testcase time="0.001" classname="maven_package_1.Test_GPP_Validation_System_storage" name="login_bp">
     <skipped/>
   </testcase>
-  <testcase time="0" classname="maven_package_1.Test_GPP_Validation_System_storage" name="login_w3">
+  <testcase time="0.001" classname="maven_package_1.Test_GPP_Validation_System_storage" name="login_w3">
     <skipped/>
   </testcase>
-  <testcase time="0" classname="maven_package_1.Test_GPP_Validation_System_storage" name="gpp_validation_system">
+  <testcase time="0.001" classname="maven_package_1.Test_GPP_Validation_System_storage" name="gpp_validation_system">
     <skipped/>
   </testcase>
-  <testcase time="0" classname="maven_package_1.Test_Submit_Extension_form_powersystem" name="login_bp">
+  <testcase time="0.001" classname="maven_package_1.Test_Submit_Extension_form_powersystem" name="login_bp">
     <skipped/>
   </testcase>
-  <testcase time="0" classname="maven_package_1.Test_Submit_Extension_form_powersystem" name="login_w3">
+  <testcase time="0.001" classname="maven_package_1.Test_Submit_Extension_form_powersystem" name="login_w3">
     <skipped/>
   </testcase>
   <testcase time="0" classname="maven_package_1.Test_Submit_Extension_form_powersystem" name="Submit_extension_powersystem">
     <skipped/>
   </testcase>
-  <testcase time="0" classname="maven_package_1.Test_default_template_for_extend_power_system" name="login_bp">
+  <testcase time="0.001" classname="maven_package_1.Test_default_template_for_extend_power_system" name="login_bp">
     <skipped/>
   </testcase>
-  <testcase time="0" classname="maven_package_1.Test_default_template_for_extend_power_system" name="login_w3">
+  <testcase time="0.001" classname="maven_package_1.Test_default_template_for_extend_power_system" name="login_w3">
     <skipped/>
   </testcase>
   <testcase time="0" classname="maven_package_1.Test_default_template_for_extend_power_system" name="Default_template_power_extend">
@@ -278,7 +278,7 @@ log4j:WARN Please initialize the log4j system properly.
   <testcase time="0" classname="maven_package_2.TestCase2842" name="f_2842">
     <skipped/>
   </testcase>
-  <testcase time="0" classname="maven_package_2.TestCase2842_power" name="f_2842_power">
+  <testcase time="0.001" classname="maven_package_2.TestCase2842_power" name="f_2842_power">
     <skipped/>
   </testcase>
   <testcase time="0" classname="maven_package_2.TestCase3497" name="f_3497">
@@ -293,7 +293,7 @@ log4j:WARN Please initialize the log4j system properly.
   <testcase time="0" classname="maven_package_2.TestCase3505" name="f_3505">
     <skipped/>
   </testcase>
-  <testcase time="0" classname="maven_package_2.TestCase3505_LinuxOne" name="f_3505_LinuxOne">
+  <testcase time="0.001" classname="maven_package_2.TestCase3505_LinuxOne" name="f_3505_LinuxOne">
     <skipped/>
   </testcase>
   <testcase time="0" classname="maven_package_2.TestCase3505_power" name="f_3505_power">
@@ -338,7 +338,7 @@ log4j:WARN Please initialize the log4j system properly.
   <testcase time="0" classname="maven_package_1.Test_Update_Power_system" name="test_upd_from_app_PS">
     <skipped/>
   </testcase>
-  <testcase time="0" classname="maven_package_1.Test_Update_System_storage" name="test_upd_from_app_SS">
+  <testcase time="0.001" classname="maven_package_1.Test_Update_System_storage" name="test_upd_from_app_SS">
     <skipped/>
   </testcase>
   <testcase time="0" classname="maven_package_2.Test_approve_ps" name="f_proxy_voting_power">

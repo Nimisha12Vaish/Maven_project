@@ -28,18 +28,18 @@ import resources.Property_use;
 public class Test_default_template_for_extend_power_system extends Login {
 	ChromeDriver driver;
 	//Properties prop = null;
-	@BeforeTest
+	/*@BeforeTest
 	public void startBrowser()
 	{
 		 
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
-		 ChromeDriver driver=new ChromeDriver();
-	}
+		
+	}*/
   @Test
   public void Default_template_power_extend() throws Exception {
 	  Property_use obj1 = new Property_use();
 	  Properties prop2 = obj1.property();
-	  
+	  System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
+		 ChromeDriver driver=new ChromeDriver();
 	  
   	  XSSFSheet sh = null;
 	  Excel_input testObj = new Excel_input();

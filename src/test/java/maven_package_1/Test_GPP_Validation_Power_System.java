@@ -41,16 +41,17 @@ public class Test_GPP_Validation_Power_System extends Login {
 	
 	ChromeDriver driver;
 	//Properties prop = null;
-	@BeforeTest
+	/*@BeforeTest
 	public void startBrowser()
 	{
 		 
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
-		 ChromeDriver driver=new ChromeDriver();
-	}
+		
+	}*/
 	
 	 @Test
   public void gpp_validation() throws Exception {
+		 System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
+		 ChromeDriver driver=new ChromeDriver();
 	  Property_use obj1 = new Property_use();
 	  Properties prop2 = obj1.property();
 	  Login obj = new Login();

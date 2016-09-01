@@ -25,9 +25,9 @@ public class TestAddComment {
 	Properties prop1;
 	 ChromeDriver driver;
 	
-	@BeforeTest
+	 /*@BeforeTest
 	public void startBrowser(){
-		/*FirefoxProfile fprofile = new FirefoxProfile();
+		FirefoxProfile fprofile = new FirefoxProfile();
 		fprofile.setPreference("browser.download.dir", "C:\\WebDriverdownloadPDFs");
 		  fprofile.setPreference("browser.download.folderList", 2);
 		  //Set Preference to not show file download confirmation dialogue using MIME types Of different file extension types.
@@ -35,15 +35,15 @@ public class TestAddComment {
 		  fprofile.setPreference( "browser.download.manager.showWhenStarting", false );
 		  fprofile.setPreference( "pdfjs.disabled", true );
 		  
-		driver = new FirefoxDriver(fprofile);*/
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
-		 ChromeDriver driver=new ChromeDriver();
-	}
+		driver = new FirefoxDriver(fprofile);
+		
+	}*/
 		
 
 	 @Test
 	  public void f() throws IOException, InterruptedException {
-		  
+		 System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
+		 ChromeDriver driver=new ChromeDriver();
 		  //Reading data from pageObject.properties file
 		//Reading data from pageObject.properties file
 		  FileInputStream fis = null;
