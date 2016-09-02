@@ -67,6 +67,7 @@
           <include name="login_bp"/>
           <include name="login_w3"/>
           <include name="gpp_validation_system"/>
+          <include name="gpp_validation_system"/>
         </methods>
       </class> <!-- maven_package_1.Test_GPP_Validation_System_storage -->
       <class name="maven_package_2.Test_BlanketMicroflow">
@@ -83,7 +84,6 @@
         <methods>
           <include name="Test_Inc_Rep"/>
           <include name="Inc_systemstorage"/>
-          <include name="startBrowser"/>
         </methods>
       </class> <!-- maven_package_1.Test_Incomplete_reprocess_system_storage -->
       <class name="maven_package_1.Test_GPP_Validation_Power_System">

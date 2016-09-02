@@ -37,7 +37,7 @@ import resources.Property_use;
 //import java.util.concurrent.TimeUnit;
 //import com.gargoylesoftware.htmlunit.javascript.host.file.File;
 
-public class Test_GPP_Validation_Power_System extends Login {
+public class Test_GPP_Validation_Power_System  {
 	
 	ChromeDriver driver;
 	//Properties prop = null;
