@@ -6,6 +6,7 @@ import java.util.concurrent.TimeUnit;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 
@@ -14,7 +15,7 @@ public class Login {
 	
 	
   @Test
-  public void login_bp(WebDriver driver) throws Exception {
+  public void login_bp(ChromeDriver driver) throws Exception {
 	 
 	  Property_use obj1 = new Property_use();
 	  Properties prop2 = obj1.property();
@@ -42,7 +43,7 @@ public class Login {
 	  }
 	  	
 	  	@Test
-		public void login_w3(WebDriver driver) throws Exception {
+		public void login_w3(ChromeDriver driver) throws Exception {
 	  		
 			 Property_use obj1 = new Property_use();
 			  Properties prop2 = obj1.property();
