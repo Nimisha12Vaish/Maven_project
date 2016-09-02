@@ -20,7 +20,7 @@ import resources.Property_use;
 import resources.W3_main;
 
 public class System_timer_Initial_Review_for_IBM_Input_LinuxONE {
-  @SuppressWarnings("deprecation")
+ // @SuppressWarnings("deprecation")
 @Test
   public void System_timer_LinuxONE() throws Exception {
 	  

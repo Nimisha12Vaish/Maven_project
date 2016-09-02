@@ -18,15 +18,17 @@ import resources.W3_main;
 public class Incomplete_Power_system {
 	WebDriver driver;
 	//Properties prop = null;
-	@BeforeTest
+	/*@BeforeTest
 	public void startBrowser()
 	{
 		 
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
 		 ChromeDriver driver=new ChromeDriver();
-	}
+	}*/
   @Test
   public void Inc_powersystem() throws Exception{
+	  System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
+		 ChromeDriver driver=new ChromeDriver();
 	  Property_use obj1 = new Property_use();
 	  Properties prop2 = obj1.property();
 	  W3_main obj = new W3_main();
