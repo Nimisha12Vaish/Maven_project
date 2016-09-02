@@ -28,18 +28,19 @@ public class TestCase3505_LinuxOne {
 	Properties prop1 = null;
 	ChromeDriver driver; 
 		
-	@BeforeTest
+	/*@BeforeTest
 	public void startBrowser(){
 		
 		//System.setProperty("webdriver.chrome.driver","C:\\Office_extra\\Set up\\chromedriver.exe" );
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
 		 ChromeDriver driver=new ChromeDriver();
-		}
+		}*/
 		
 
   @Test
   public void f_3505_LinuxOne() throws IOException, InterruptedException {
-	  
+	  System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
+		 ChromeDriver driver=new ChromeDriver();
 	  //Reading data from pageObject.properties file
 	  FileInputStream fis = null;
 	try {

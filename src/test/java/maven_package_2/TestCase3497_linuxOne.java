@@ -32,17 +32,19 @@ public class TestCase3497_linuxOne {
 Properties prop1;
 ChromeDriver driver; 
 	
-@BeforeTest
+/*@BeforeTest
 public void startBrowser(){
 	
 	//System.setProperty("webdriver.chrome.driver","C:\\Office_extra\\Set up\\chromedriver.exe" );
 	System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
 	 ChromeDriver driver=new ChromeDriver();
-}
+}*/
 	
   @Test
   public void f_3497_linuxOne() throws InterruptedException, IOException {
 	 
+	  System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
+		 ChromeDriver driver=new ChromeDriver();
 	  //Reading data from pageObject.properties file
 	  FileInputStream fis = null;
 	try {

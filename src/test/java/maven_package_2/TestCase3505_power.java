@@ -28,16 +28,17 @@ public class TestCase3505_power {
 	Properties prop1 = null;
 	ChromeDriver driver; 
 		
-	@BeforeTest
+	/*@BeforeTest
 	public void startBrowser(){
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
 		 ChromeDriver driver=new ChromeDriver();	
-	}
+	}*/
 		
 
   @Test
   public void f_3505_power() throws IOException, InterruptedException {
-	  
+	  System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
+		 ChromeDriver driver=new ChromeDriver();
 	  //Reading data from pageObject.properties file
 	  FileInputStream fis = null;
 	try {

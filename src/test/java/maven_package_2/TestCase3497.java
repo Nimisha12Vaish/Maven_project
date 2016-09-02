@@ -32,7 +32,7 @@ public class TestCase3497 {
 Properties prop1;
 ChromeDriver driver; 
 	
-@BeforeTest
+/*@BeforeTest
 public void startBrowser(){
 	/*FirefoxProfile fprofile = new FirefoxProfile();
 	fprofile.setPreference("browser.download.dir", "C:\\WebDriverdownloadPDFs");
@@ -46,13 +46,13 @@ public void startBrowser(){
 	/*
 	System.setProperty("webdriver.chrome.driver","C:\\Office_extra\\Set up\\chromedriver.exe" );
 	driver = new ChromeDriver(); */
-	System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
-	 ChromeDriver driver=new ChromeDriver();
-}
+	
+
 	
   @Test()
   public void f_3497() throws InterruptedException, IOException {
-	 
+	System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
+	 ChromeDriver driver=new ChromeDriver();
 	  //Reading data from pageObject.properties file
 	  FileInputStream fis = null;
 	try {
