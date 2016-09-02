@@ -70,6 +70,7 @@ public class DealReg_cannot_BlnktComplete {
 wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(prop.getProperty("W3_Admin_task")))).click();  //task
 		
 wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(prop.getProperty("W3_select_Blanket_complete")))).click();  //blanket check
+Thread.sleep(3000);
 		 //blanket check get text
 		//wait.until(
 		//		ExpectedConditions.presenceOfElementLocated(

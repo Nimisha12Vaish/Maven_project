@@ -37,9 +37,7 @@
         <version>2.12.4</version>
           <configuration>
 
-           <suiteXmlFiles>
-               <suiteXmlFile>testngDemo.xml</suiteXmlFile>
-          </suiteXmlFiles>
+          
                  </configuration> 
     </plugin></plugins></build>
 </project> 
