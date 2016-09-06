@@ -3,142 +3,152 @@
 <suite name="Regression_Suite_2" >
   <test name="Test1">
     <classes>
-      <class name="Maven_package.dupe_comp_comments"/>
+      <class name="maven_package_1.dupe_comp_comments"/>
       </classes>
     </test>
     <test name="Test2">
     <classes>
-      <class name="Maven_package.Test_default_template_for_update_LinuxONE"/>
+      <class name="maven_package_1.Test_default_template_for_update_LinuxONE"/>
       </classes>
     </test>
     <test name="Test3">
     <classes>
-      <class name="Maven_package.Test_default_template_for_update_system_storage"/>
+      <class name="maven_package_1.Test_default_template_for_update_system_storage"/>
       </classes>
     </test>
     <test name="Test4">
     <classes>
-      <class name="Maven_package.Test_Update_System_storage"/>
+      <class name="maven_package_1.Test_Update_System_storage"/>
       </classes>
     </test>
     <test name="Test5">
     <classes>
-      <class name="Maven_package.Test_Submit_Extension_form"/>
+      <class name="maven_package_1.Test_Submit_Extension_form_LinuxONE"/>
       </classes>
     </test>
     <test name="Test6">
     <classes>
-      <class name="Maven_package.reg_inc_ps"/>
+      <class name="maven_package_1.reg_inc_ps"/>
       </classes>
     </test>
     <test name="Test7">
     <classes>
-      <class name="Maven_package.Test_Rejected_reprocess_power_system"/>
+      <class name="maven_package_1.Test_Rejected_reprocess_power_system"/>
       </classes>
     </test>
     <test name="Test8">
     <classes>
-      <class name="Maven_package.reg_withdrawn_ss"/>
+      <class name="maven_package_1.reg_withdrawn_ss"/>
       </classes>
     </test>
     <test name="Test9">
     <classes>
-      <class name="Maven_package.reg_expire_ps"/>
+      <class name="maven_package_1.reg_expire_ps"/>
       </classes>
     </test>
     <test name="Test10">
     <classes>
-      <class name="Maven_package.MSA_comp_comments"/>
+      <class name="maven_package_1.MSA_comp_comments"/>
       </classes>
     </test>
     <test name="Test11">
     <classes>
-      <class name="Maven_package.reg_submitted_ss"/>
+      <class name="maven_package_1.reg_submitted_ss"/>
       </classes>
     </test>
     <test name="Test12">
     <classes>
-      <class name="Maven_package.reg_withdrawn_ps"/>
+      <class name="maven_package_1.reg_withdrawn_ps"/>
       </classes>
     </test>
     <test name="Test13">
     <classes>
-      <class name="Maven_package.Test_GPP_Validation_Power_System"/>
+      <class name="maven_package_1.Test_GPP_Validation_Power_System"/>
       </classes>
     </test>
     <test name="Test14">
     <classes>
-      <class name="Maven_package.Test_Rejected_reprocess_LinuxONE"/>
+      <class name="maven_package_1.Test_Rejected_reprocess_LinuxONE"/>
       </classes>
     </test>
     <test name="Test15">
     <classes>
-      <class name="Maven_package.dupli_HA_comp_cmnts"/>
+      <class name="maven_package_1.dupli_HA_comp_cmnts"/>
       </classes>
     </test>
     <test name="Test16">
     <classes>
-      <class name="Maven_package.reg_approve_ss"/>
+      <class name="maven_package_1.reg_approve_ss"/>
       </classes>
     </test>
     <test name="Test17">
     <classes>
-      <class name="Maven_package.Test_Update_Power_system"/>
+      <class name="maven_package_1.Test_Update_Power_system"/>
       </classes>
     </test>
     <test name="Test18">
     <classes>
-      <class name="Maven_package.Test_Incomplete_reprocess_system_storage"/>
+      <class name="maven_package_1.Test_Incomplete_reprocess_system_storage"/>
       </classes>
     </test>
     <test name="Test19">
     <classes>
-      <class name="Maven_package.Test_Update_LinuxONE"/>
+      <class name="maven_package_1.Test_Update_LinuxONE"/>
       </classes>
     </test>
     <test name="Test20">
     <classes>
-      <class name="Maven_package.blanket_comp_comments"/>
+      <class name="maven_package_1.blanket_comp_comments"/>
       </classes>
     </test>
     <test name="Test21">
     <classes>
-      <class name="Maven_package.submitted_ps"/>
+      <class name="maven_package_1.submitted_ps"/>
       </classes>
     </test>
     <test name="Test22">
     <classes>
-      <class name="Maven_package.reg_expire_ss"/>
+      <class name="maven_package_1.reg_expire_ss"/>
       </classes>
     </test>
     <test name="Test23">
     <classes>
-      <class name="Maven_package.Test_GPP_Validation_System_storage"/>
+      <class name="maven_package_1.Test_GPP_Validation_System_storage"/>
       </classes>
     </test>
     <test name="Test24">
     <classes>
-      <class name="Maven_package.reg_inc_ss"/>
+      <class name="maven_package_1.reg_inc_ss"/>
       </classes>
     </test>
     <test name="Test25">
     <classes>
-      <class name="Maven_package.Test_default_template_for_extend_power_system"/>
+      <class name="maven_package_1.Test_default_template_for_extend_power_system"/>
       </classes>
     </test>
     <test name="Test26">
     <classes>
-      <class name="Maven_package.IGS_resp_comments"/>
+      <class name="maven_package_1.IGS_resp_comments"/>
       </classes>
     </test>
     <test name="Test27">
     <classes>
-      <class name="Maven_package.HA_comp_comments"/>
+      <class name="maven_package_1.HA_comp_comments"/>
       </classes>
     </test>
     <test name="Test28">
     <classes>
-      <class name="Maven_package.Federal_resp_comments"/>
+      <class name="maven_package_1.Federal_resp_comments"/>
     </classes>
   </test> <!-- Test -->
+   <test name="Test29">
+    <classes>
+      <class name="maven_package_1.Test_Submit_Extension_form_powersystem"/>
+      </classes>
+    </test>
+     <test name="Test30">
+    <classes>
+      <class name="maven_package_1.Test_Submit_Extension_form_systemstorage"/>
+      </classes>
+    </test>
 </suite> <!-- Regression_Suite_2 -->

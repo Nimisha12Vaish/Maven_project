@@ -1,33 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="TestDemo(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="maven_package_1.DupeReview_cannot_Reassigned">
+      <class name="maven_package_1.Form_moving_to_Initial_Review_Powersystem">
         <methods>
-          <include name="Dupe_Review_cannot_be_reassigned"/>
+          <include name="IR_created_powersystem"/>
         </methods>
-      </class> <!-- maven_package_1.DupeReview_cannot_Reassigned -->
-      <class name="maven_package_1.DealReg_cannot_DupeComplete">
-        <methods>
-          <include name="DRR_cannot_Dupe_complete"/>
-        </methods>
-      </class> <!-- maven_package_1.DealReg_cannot_DupeComplete -->
-      <class name="maven_package_1.IGSApproval_cannotbeReassigned_withoutIGS">
-        <methods>
-          <include name="IGS_Approval_cannot_Reassigned"/>
-        </methods>
-      </class> <!-- maven_package_1.IGSApproval_cannotbeReassigned_withoutIGS -->
-      <class name="maven_package_1.Email_Notification_Blanket_ps">
-        <methods>
-          <include name="Email_Notify_Blanket_PS"/>
-        </methods>
-      </class> <!-- maven_package_1.Email_Notification_Blanket_ps -->
-      <class name="maven_package_1.DealReg_cannot_BlnktComplete">
-        <methods>
-          <include name="DRR_cannot_Blanket_complete"/>
-        </methods>
-      </class> <!-- maven_package_1.DealReg_cannot_BlnktComplete -->
+      </class> <!-- maven_package_1.Form_moving_to_Initial_Review_Powersystem -->
     </classes>
-  </test> <!-- TestDemo(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

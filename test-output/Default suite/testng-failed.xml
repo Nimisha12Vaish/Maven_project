@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="maven_package_1.Test_Update_LinuxONE">
+      <class name="maven_package_1.Form_moving_to_Initial_Review_Powersystem">
         <methods>
-          <include name="test_upd_from_app_linuxone"/>
+          <include name="IR_created_powersystem"/>
         </methods>
-      </class> <!-- maven_package_1.Test_Update_LinuxONE -->
+      </class> <!-- maven_package_1.Form_moving_to_Initial_Review_Powersystem -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

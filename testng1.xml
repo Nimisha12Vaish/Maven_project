@@ -3,26 +3,28 @@
 <suite name="Regression_Suite_1" >
   <test name="Test">
     <classes>
-      <class name="Maven_package.Form_moving_to_Initial_Review"/>
-      <class name="Maven_package.Request_ID_in_Manage_Tasks_tab"/>
-      <class name="Maven_package.reprocess_app"/>
-      <class name="Maven_package.reprocess_withdrawn"/>
-      <class name="Maven_package.DealReg_cannot_IGSResponse"/>
-      <class name="Maven_package.approve_ps"/>
-      <class name="Maven_package.InitialReview_cannot_Reassigned"/>
-      <class name="Maven_package.reprocess_expire"/>
-      <class name="Maven_package.Email_Notification_Blanket_ps"/>
-      <class name="Maven_package.Email_Notification_MSAcheck"/>
-      <class name="Maven_package.Email_Notification_MSAcomp"/>
-      <class name="Maven_package.Email_Notification_IGS"/>
-      <class name="Maven_package.DealReg_cannot_BlnktComplete"/>
-      <class name="Maven_package.reprocess_inc"/>
-      <class name="Maven_package.FederalCheck_cannot_Reassigned"/>
-      <class name="Maven_package.DupeReview_cannot_Reassigned"/>
-      <class name="Maven_package.IGSApproval_cannotbeReassigned_withoutIGS"/>
-      <class name="Maven_package.Request_ID_in_Tasks_tab"/>
-      <class name="Maven_package.DealReg_cannot_DupeComplete"/>
-      <class name="Maven_package.reprocess_rej"/>
+      <class name="maven_package_1.Form_moving_to_Initial_Review_LinuxONE"/>
+      <class name="maven_package_1.Form_moving_to_Initial_Review_Powersystem"/>
+      <class name="maven_package_1.Form_moving_to_Initial_Review_systemstorage"/>
+      <class name="maven_package_1.Request_ID_in_Manage_Tasks_tab"/>
+      <class name="maven_package_1.reprocess_app"/>
+      <class name="maven_package_1.reprocess_withdrawn"/>
+      <class name="maven_package_1.DealReg_cannot_IGSResponse"/>
+      <class name="maven_package_1.approve_ps"/>
+      <class name="maven_package_1.InitialReview_cannot_Reassigned"/>
+      <class name="maven_package_1.reprocess_expire"/>
+      <class name="maven_package_1.Email_Notification_Blanket_ps"/>
+      <class name="maven_package_1.Email_Notification_MSAcheck"/>
+      <class name="maven_package_1.Email_Notification_MSAcomp"/>
+      <class name="maven_package_1.Email_Notification_IGS"/>
+      <class name="maven_package_1.DealReg_cannot_BlnktComplete"/>
+      <class name="maven_package_1.reprocess_inc"/>
+      <class name="maven_package_1.FederalCheck_cannot_Reassigned"/>
+      <class name="maven_package_1.DupeReview_cannot_Reassigned"/>
+      <class name="maven_package_1.IGSApproval_cannotbeReassigned_withoutIGS"/>
+      <class name="maven_package_1.Request_ID_in_Tasks_tab"/>
+      <class name="maven_package_1.DealReg_cannot_DupeComplete"/>
+      <class name="maven_package_1.reprocess_rej"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Regression_Suite_1 -->
