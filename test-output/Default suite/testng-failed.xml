@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="maven_package_1.Form_moving_to_Initial_Review_Powersystem">
+      <class name="maven_package_1.Test_GPP_Validation_System_storage">
         <methods>
-          <include name="IR_created_powersystem"/>
+          <include name="gpp_validation_system"/>
+          <include name="gpp_validation_system"/>
         </methods>
-      </class> <!-- maven_package_1.Form_moving_to_Initial_Review_Powersystem -->
+      </class> <!-- maven_package_1.Test_GPP_Validation_System_storage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

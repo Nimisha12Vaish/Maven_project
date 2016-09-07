@@ -53,7 +53,7 @@ public class Test_Submit_Extension_form_LinuxONE {
 	  driver.findElement(By.xpath(prop2.getProperty("Right_click_Extend"))).click();
 	  Thread.sleep(10000);
 	  driver.findElement(By.xpath(prop2.getProperty("decision_date"))).clear();
-	  driver.findElement(By.xpath(prop2.getProperty("decision_date"))).sendKeys("06/29/2016");
+	  driver.findElement(By.xpath(prop2.getProperty("decision_date"))).sendKeys("11/29/2016");
 	  Thread.sleep(10000);
 	  System.out.println("decision date added");
 	  JavascriptExecutor jse = (JavascriptExecutor)driver;
@@ -92,7 +92,7 @@ public class Test_Submit_Extension_form_LinuxONE {
 	  driver.findElement(By.xpath(prop2.getProperty("f_close_attachment_window"))).click();
 	  
 	  driver.findElement(By.xpath(prop2.getProperty("installation_date"))).clear();
-	  driver.findElement(By.xpath(prop2.getProperty("installation_date"))).sendKeys("06/30/2016");
+	  driver.findElement(By.xpath(prop2.getProperty("installation_date"))).sendKeys("12/30/2016");
 	  
 	  driver.findElement(By.id(prop2.getProperty("BP_Submit_button"))).click();
 	  System.out.println("Form is submitted");

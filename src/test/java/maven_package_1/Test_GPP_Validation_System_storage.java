@@ -94,7 +94,10 @@ public class Test_GPP_Validation_System_storage  {
 	  act.contextClick(driver.findElement(By.xpath(prop2.getProperty("BP_First_Element")))).perform();
 	  //act.contextClick(driver.findElement(By.xpath(prop2.getProperty(("Template_Right_click"))))).perform();
 	  driver.findElement(By.id(prop2.getProperty(("Copy_and_create_new_id")))).click();
-	  Thread.sleep(5000);
+	  Thread.sleep(7000);
+	  driver.findElement(By.xpath(prop2.getProperty("decision_date"))).clear();
+	  driver.findElement(By.xpath(prop2.getProperty("decision_date"))).sendKeys("11/29/2016");
+	  Thread.sleep(7000);
 	  if( driver.findElement(By.id(prop2.getProperty("Select_GPP_NO"))).isSelected())
 	  {
 		 // wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("power_gpp_opp_yes")));
@@ -114,19 +117,21 @@ public class Test_GPP_Validation_System_storage  {
 	  System.out.println("Enter GPP Number");
 	  File file2 = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);  
 	  org.apache.commons.io.FileUtils.copyFile(file2, new File("C:\\Users\\IBM_ADMIN\\Desktop\\Regression_screenshots\\GPP error.png"));
+	  driver.findElement(By.xpath(prop2.getProperty("installation_date"))).clear();
+	  driver.findElement(By.xpath(prop2.getProperty("installation_date"))).sendKeys("12/30/2016");
 	  driver.findElement(By.id(prop2.getProperty("BP_Submit_button"))).click();
 	  String expected_form ="Your registration has been submitted successfully.";
 	   String submitted_form = driver.findElement(By.xpath("//*[@class='ibm-columns']/div[1]/p[contains(.,'Your registration has been submitted successfully.')]")).getText();
-	 boolean flag = false;
+	 boolean flag = true;
 	   if(expected_form.equals(submitted_form))
 	  {
-		  flag= true;
+		  flag= false;
 	  }
 	   else
 	   {
-		   flag=false;
+		   flag=true;
 	   }
-	   Assert.assertFalse(flag, "the form is submitting");
+	   Assert.assertTrue(flag, "the form is submitting");
 	   driver.close();
 	  
 	  
