@@ -1,30 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Regression_Suite_1" >
+<suite name="Suite" parallel="none">
   <test name="Test">
     <classes>
-      <class name="maven_package_1.Form_moving_to_Initial_Review_LinuxONE"/>
-      <class name="maven_package_1.Form_moving_to_Initial_Review_Powersystem"/>
-      <class name="maven_package_1.Form_moving_to_Initial_Review_systemstorage"/>
-      <class name="maven_package_1.Request_ID_in_Manage_Tasks_tab"/>
-      <class name="maven_package_1.reprocess_app"/>
-      <class name="maven_package_1.reprocess_withdrawn"/>
-      <class name="maven_package_1.DealReg_cannot_IGSResponse"/>
-      <class name="maven_package_1.approve_ps"/>
-      <class name="maven_package_1.InitialReview_cannot_Reassigned"/>
-      <class name="maven_package_1.reprocess_expire"/>
-      <class name="maven_package_1.Email_Notification_Blanket_ps"/>
-      <class name="maven_package_1.Email_Notification_MSAcheck"/>
-      <class name="maven_package_1.Email_Notification_MSAcomp"/>
-      <class name="maven_package_1.Email_Notification_IGS"/>
       <class name="maven_package_1.DealReg_cannot_BlnktComplete"/>
-      <class name="maven_package_1.reprocess_inc"/>
-      <class name="maven_package_1.FederalCheck_cannot_Reassigned"/>
-      <class name="maven_package_1.DupeReview_cannot_Reassigned"/>
-      <class name="maven_package_1.IGSApproval_cannotbeReassigned_withoutIGS"/>
-      <class name="maven_package_1.Request_ID_in_Tasks_tab"/>
       <class name="maven_package_1.DealReg_cannot_DupeComplete"/>
-      <class name="maven_package_1.reprocess_rej"/>
+      <class name="maven_package_1.DupeReview_cannot_Reassigned"/>
+      <class name="maven_package_1.HA_comp_comments"/>
+      <class name="maven_package_1.DealReg_cannot_IGSResponse"/>
+      <class name="maven_package_1.Email_Notification_Dupe"/>
+      <class name="maven_package_1.Form_moving_to_Initial_Review_systemstorage"/>
+      <class name="maven_package_1.dupe_comp_comments"/>
+      <class name="maven_package_1.blanket_comp_comments"/>
+      <class name="maven_package_1.approve_ps"/>
+      <class name="maven_package_1.BlanketCheck_cannot_Reassigned"/>
+      <class name="maven_package_1.Form_moving_to_Initial_Review_LinuxONE"/>
+      <class name="maven_package_1.Federal_resp_comments"/>
+      <class name="maven_package_1.Email_Notification_Blanket_ps"/>
+      <class name="maven_package_1.IGS_resp_comments"/>
+      <class name="maven_package_1.InitialReview_cannot_Reassigned"/>
+      <class name="maven_package_1.IGSApproval_cannotbeReassigned_withoutIGS"/>
+      <class name="maven_package_1.Email_Notification_IGS"/>
+      <class name="maven_package_1.Email_Notification_MSAcomp"/>
+      <class name="maven_package_1.Form_moving_to_Initial_Review_Powersystem"/>
+      <class name="maven_package_1.Email_Notification_initial"/>
+      <class name="maven_package_1.dupli_HA_comp_cmnts"/>
+      <class name="maven_package_1.FederalCheck_cannot_Reassigned"/>
     </classes>
   </test> <!-- Test -->
-</suite> <!-- Regression_Suite_1 -->
+</suite> <!-- Suite -->

@@ -38,7 +38,7 @@
           <configuration>
            <skipTests>false</skipTests>
 <suiteXmlFiles>
-            <suiteXmlFile>testng.xml</suiteXmlFile>
+            <suiteXmlFile>testngDemo.xml</suiteXmlFile>
           </suiteXmlFiles>
           
                  </configuration> 

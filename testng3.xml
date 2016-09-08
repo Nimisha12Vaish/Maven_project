@@ -1,49 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Regression_Suite_3" >
-  <test name="Test1">
+<suite name="Suite" parallel="none">
+  <test name="Test">
     <classes>
-      <class name="maven_package_3_2.Testcase2842_linuxOne"/>
-      </classes>
-    </test>
-    <test name="Test2">
-    <classes>
-      <class name="maven_package_3_2.TestCase2842_power"/>
-      </classes>
-    </test>
-     <test name="Test3">
-    <classes>
-      <class name="maven_package_3_2.TestCase2842"/>
-      </classes>
-    </test>
-     <test name="Test4">
-    <classes>
-      <class name="maven_package_3_2.TestCase3497_linuxOne"/>
-      </classes>
-    </test>
-     <test name="Test5">
-    <classes>
-      <class name="maven_package_3_2.TestCase3497_power"/>
-      </classes>
-    </test>
-     <test name="Test6">
-    <classes>
-      <class name="maven_package_3_2.TestCase3497"/>
-      </classes>
-    </test>
-     <test name="Test7">
-    <classes>
-      <class name="maven_package_3_2.TestCase3505_LinuxOne"/>
-      </classes>
-    </test>
-     <test name="Test8">
-    <classes>
-      <class name="maven_package_3_2.TestCase3505_power"/>
-      </classes>
-    </test>
-    <test name="Test9">
-    <classes>
-      <class name="maven_package_3_2.TestCase3505"/>
-      </classes>
-    </test>
-    </suite>
+      <class name="maven_package_2.TestCase2842"/>
+      <class name="maven_package_2.TestCase3497_power"/>
+      <class name="maven_package_2.TestCase3505"/>
+      <class name="maven_package_2.TestCase3497"/>
+      <class name="maven_package_2.Test_BlanketMicroflow"/>
+      <class name="maven_package_2.TestCase2842_power"/>
+      <class name="maven_package_2.TestCase3497_linuxOne"/>
+      <class name="maven_package_2.Test_BlanketMicroflow_ps"/>
+      <class name="maven_package_2.Test_MSA_microflow_linuxOne"/>
+      <class name="maven_package_2.Test_proxy_voting_power"/>
+      <class name="maven_package_2.Test_proxy_voting_ss"/>
+      <class name="maven_package_2.Test_MSA_microflow"/>
+      <class name="maven_package_2.TestCase3505_power"/>
+      <class name="maven_package_2.Testcase2842_linuxOne"/>
+      <class name="maven_package_2.TestAddComment"/>
+      <class name="maven_package_2.Test_MSA_microflow_ps"/>
+      <class name="maven_package_2.TestCase3505_LinuxOne"/>
+      <class name="maven_package_2.Test_BlanketMicroflow_linuxOne"/>
+      <class name="maven_package_2.Test_proxy_voting_linuxOne"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
