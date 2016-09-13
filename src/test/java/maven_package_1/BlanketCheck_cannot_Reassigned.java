@@ -68,12 +68,12 @@ public class BlanketCheck_cannot_Reassigned {
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(prop.getProperty("W3_Admin_task")))).click();  //task
 		
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(prop.getProperty("W3_select_Blanket_check")))).click();  //blanket check
-		//Thread.sleep(1000);
+		Thread.sleep(2000);
 		System.out.println(wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(prop.getProperty("W3_managetask_task_getText")))).getText());  //blanket check get text
-		wait.until(
-				ExpectedConditions.presenceOfElementLocated(
-						By.xpath(prop.getProperty("W3_Admin_managetask_apply"))));  //apply
-		driver.findElement(By.xpath(prop.getProperty("W3_Admin_managetask_apply"))).click();// click apply
+		//wait.until(
+				//ExpectedConditions.presenceOfElementLocated(
+				//		By.xpath(prop.getProperty("W3_Admin_managetask_apply"))));  //apply
+		//driver.findElement(By.xpath(prop.getProperty("W3_Admin_managetask_apply"))).click();// click apply
 		driver.findElement(By.xpath(prop.getProperty("W3_Admin_managetask_apply"))).click();  //click apply
 		System.out.println("All Blanket Check appear");
 		

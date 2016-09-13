@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 42, Failures: 1, Errors: 0, Skipped: 41, Time elapsed: 11.278 sec <<< FAILURE!
+gpp_validation_system(maven_package_1.Test_GPP_Validation_System_storage)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at resources.Login.login_bp(Login.java:39)
+	at maven_package_1.Test_GPP_Validation_System_storage.gpp_validation_system(Test_GPP_Validation_System_storage.java:53)

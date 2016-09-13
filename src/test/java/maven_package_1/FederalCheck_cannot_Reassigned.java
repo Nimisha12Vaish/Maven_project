@@ -70,7 +70,7 @@ public class FederalCheck_cannot_Reassigned {
 wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(prop.getProperty("W3_Admin_task")))).click();  //task
 		
 wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(prop.getProperty("W3_select_Federal_check")))).click();  //federal check
-		//Thread.sleep(1000);
+		Thread.sleep(2000);
 		 
 		//wait.until(
 		//		ExpectedConditions.presenceOfElementLocated(
