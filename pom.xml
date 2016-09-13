@@ -38,7 +38,7 @@
           <configuration>
           
 <suiteXmlFiles>
-            <suiteXmlFile>Maven_project\testngDemo.xml</suiteXmlFile>
+            <suiteXmlFile>testngDemo.xml</suiteXmlFile>
           </suiteXmlFiles>
           
                  </configuration> 
