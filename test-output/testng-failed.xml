@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="TestDemo(failed)">
     <classes>
-      <class name="maven_package_1.Test_GPP_Validation_System_storage">
+      <class name="maven_package_1.DealReg_cannot_DupeComplete">
         <methods>
-          <include name="gpp_validation_system"/>
-          <include name="gpp_validation_system"/>
+          <include name="DRR_cannot_Dupe_complete"/>
         </methods>
-      </class> <!-- maven_package_1.Test_GPP_Validation_System_storage -->
+      </class> <!-- maven_package_1.DealReg_cannot_DupeComplete -->
+      <class name="maven_package_1.Email_Notification_Blanket_ps">
+        <methods>
+          <include name="Email_Notify_Blanket_PS"/>
+        </methods>
+      </class> <!-- maven_package_1.Email_Notification_Blanket_ps -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- TestDemo(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -82,6 +82,7 @@ wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(prop.getProperty
 		System.out.println(Task_name);
 		Actions act=new Actions(driver);
 		act.contextClick(driver.findElement(By.xpath(prop.getProperty("W3_Admin_task_first_element")))).perform(); //first task 
+		Thread.sleep(2000);
 		act.sendKeys(Keys.RETURN).perform();
 		//wait.until(
 		//		ExpectedConditions.presenceOfElementLocated(

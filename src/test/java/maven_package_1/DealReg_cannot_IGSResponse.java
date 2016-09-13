@@ -73,10 +73,10 @@ public class DealReg_cannot_IGSResponse {
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(prop.getProperty("W3_select_IGS_response")))).click();  //igs response
 		Thread.sleep(4000);
 		  
-		wait.until(
-				ExpectedConditions.presenceOfElementLocated(
-						By.xpath(prop.getProperty("W3_Admin_managetask_apply"))));  //apply
-		driver.findElement(By.xpath(prop.getProperty("W3_Admin_managetask_apply"))).click();// click apply
+		//wait.until(
+		//		ExpectedConditions.presenceOfElementLocated(
+		//				By.xpath(prop.getProperty("W3_Admin_managetask_apply"))));  //apply
+		//driver.findElement(By.xpath(prop.getProperty("W3_Admin_managetask_apply"))).click();// click apply
 		driver.findElement(By.xpath(prop.getProperty("W3_Admin_managetask_apply"))).click();  //click apply
 		System.out.println("All IGS Response appear");
 		
@@ -84,10 +84,11 @@ public class DealReg_cannot_IGSResponse {
 		System.out.println(Task_name);
 		Actions act=new Actions(driver);
 		act.contextClick(driver.findElement(By.xpath(prop.getProperty("W3_Admin_task_first_element")))).perform(); //first task 
+		Thread.sleep(2000);
 		act.sendKeys(Keys.RETURN).perform();
-		wait.until(
-				ExpectedConditions.presenceOfElementLocated(
-						By.xpath(prop.getProperty("W3_Admin_task_reassign"))));
+		//wait.until(
+			//	ExpectedConditions.presenceOfElementLocated(
+				//		By.xpath(prop.getProperty("W3_Admin_task_reassign"))));
 		driver.findElement(By.xpath(prop.getProperty("W3_managetask_reassign_userid"))).sendKeys(prop.getProperty("W3_managetask_reassign_username"));//reassign
 		//Thread.sleep(10000);
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(prop.getProperty("W3_managetask_reassign_submit")))).click();//submit

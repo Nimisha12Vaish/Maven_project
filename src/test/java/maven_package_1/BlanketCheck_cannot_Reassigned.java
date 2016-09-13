@@ -81,10 +81,11 @@ public class BlanketCheck_cannot_Reassigned {
 		System.out.println(Task_name);
 		Actions act=new Actions(driver);
 		act.contextClick(driver.findElement(By.xpath(prop.getProperty("W3_Admin_task_first_element")))).perform(); //first task 
+		Thread.sleep(2000);
 		act.sendKeys(Keys.RETURN).perform();
-		wait.until(
-				ExpectedConditions.presenceOfElementLocated(
-						By.xpath(prop.getProperty("W3_Admin_task_reassign"))));
+		//wait.until(
+		//		ExpectedConditions.presenceOfElementLocated(
+		//				By.xpath(prop.getProperty("W3_Admin_task_reassign"))));
 		driver.findElement(By.xpath(prop.getProperty("W3_managetask_reassign_userid"))).sendKeys(prop.getProperty("W3_managetask_reassign_username"));//reassign
 		//Thread.sleep(10000);
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(prop.getProperty("W3_managetask_reassign_submit")))).click();//submit
