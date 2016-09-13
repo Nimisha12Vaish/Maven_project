@@ -38,7 +38,7 @@
           <configuration>
           
 <suiteXmlFiles>
-            <suiteXmlFile>testngDemo.xml</suiteXmlFile>
+            <suiteXmlFile>testng.xml</suiteXmlFile>
           </suiteXmlFiles>
           
                  </configuration> 

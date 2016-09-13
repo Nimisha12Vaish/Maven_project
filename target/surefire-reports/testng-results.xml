@@ -2,76 +2,116 @@
 <testng-results skipped="40" failed="0" total="40" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="10389" started-at="2016-09-12T13:11:56Z" finished-at="2016-09-12T13:12:07Z">
+  <suite name="Command line suite" duration-ms="8654" started-at="2016-09-13T09:19:56Z" finished-at="2016-09-13T09:20:04Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="10389" started-at="2016-09-12T13:11:56Z" finished-at="2016-09-12T13:12:07Z">
-      <class name="maven_package_1.Test_default_template_for_update_system_storage">
-        <test-method status="SKIP" signature="Default_template_LinuxONE_update()[pri:0, instance:maven_package_1.Test_default_template_for_update_system_storage@77a83987]" name="Default_template_LinuxONE_update" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Default_template_LinuxONE_update -->
-      </class> <!-- maven_package_1.Test_default_template_for_update_system_storage -->
+    <test name="Command line test" duration-ms="8654" started-at="2016-09-13T09:19:56Z" finished-at="2016-09-13T09:20:04Z">
       <class name="maven_package_2.Test_MSA_microflow_linuxOne">
-        <test-method status="SKIP" signature="f_MSA_microflow_linuxOne()[pri:0, instance:maven_package_2.Test_MSA_microflow_linuxOne@65312942]" name="f_MSA_microflow_linuxOne" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
+        <test-method status="SKIP" signature="f_MSA_microflow_linuxOne()[pri:0, instance:maven_package_2.Test_MSA_microflow_linuxOne@3d15d862]" name="f_MSA_microflow_linuxOne" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f_MSA_microflow_linuxOne -->
       </class> <!-- maven_package_2.Test_MSA_microflow_linuxOne -->
+      <class name="maven_package_1.Test_default_template_for_update_system_storage">
+        <test-method status="SKIP" signature="Default_template_LinuxONE_update()[pri:0, instance:maven_package_1.Test_default_template_for_update_system_storage@d2ebdb3]" name="Default_template_LinuxONE_update" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Default_template_LinuxONE_update -->
+      </class> <!-- maven_package_1.Test_default_template_for_update_system_storage -->
       <class name="maven_package_2.Test_approve_ps">
-        <test-method status="SKIP" signature="f_proxy_voting_power()[pri:0, instance:maven_package_2.Test_approve_ps@95adf3c]" name="f_proxy_voting_power" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
+        <test-method status="SKIP" signature="f_proxy_voting_power()[pri:0, instance:maven_package_2.Test_approve_ps@23d57fa]" name="f_proxy_voting_power" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f_proxy_voting_power -->
       </class> <!-- maven_package_2.Test_approve_ps -->
       <class name="maven_package_1.Test_Rejected_reprocess_LinuxONE">
-        <test-method status="SKIP" signature="Test_Rej_linuxone()[pri:0, instance:maven_package_1.Test_Rejected_reprocess_LinuxONE@e2a56ac]" name="Test_Rej_linuxone" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
+        <test-method status="SKIP" signature="Test_Rej_linuxone()[pri:0, instance:maven_package_1.Test_Rejected_reprocess_LinuxONE@58fe09a1]" name="Test_Rej_linuxone" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Rej_linuxone -->
       </class> <!-- maven_package_1.Test_Rejected_reprocess_LinuxONE -->
       <class name="maven_package_1.Test_default_template_for_update_LinuxONE">
-        <test-method status="SKIP" signature="Default_template_LinuxONE_update()[pri:0, instance:maven_package_1.Test_default_template_for_update_LinuxONE@5fbc4e89]" name="Default_template_LinuxONE_update" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
+        <test-method status="SKIP" signature="Default_template_LinuxONE_update()[pri:0, instance:maven_package_1.Test_default_template_for_update_LinuxONE@4f4f4ec4]" name="Default_template_LinuxONE_update" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Default_template_LinuxONE_update -->
       </class> <!-- maven_package_1.Test_default_template_for_update_LinuxONE -->
-      <class name="maven_package_2.Test_proxy_voting_power">
-        <test-method status="SKIP" signature="f_proxy_voting_power()[pri:0, instance:maven_package_2.Test_proxy_voting_power@590864d2]" name="f_proxy_voting_power" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f_proxy_voting_power -->
-      </class> <!-- maven_package_2.Test_proxy_voting_power -->
       <class name="maven_package_2.TestCase3505_power">
-        <test-method status="SKIP" signature="f_3505_power()[pri:0, instance:maven_package_2.TestCase3505_power@647be610]" name="f_3505_power" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
+        <test-method status="SKIP" signature="f_3505_power()[pri:0, instance:maven_package_2.TestCase3505_power@7999dcfe]" name="f_3505_power" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f_3505_power -->
       </class> <!-- maven_package_2.TestCase3505_power -->
+      <class name="maven_package_2.Test_proxy_voting_power">
+        <test-method status="SKIP" signature="f_proxy_voting_power()[pri:0, instance:maven_package_2.Test_proxy_voting_power@111c4d14]" name="f_proxy_voting_power" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f_proxy_voting_power -->
+      </class> <!-- maven_package_2.Test_proxy_voting_power -->
       <class name="maven_package_2.Testcase2842_linuxOne">
-        <test-method status="SKIP" signature="f_2842_linuxOne()[pri:0, instance:maven_package_2.Testcase2842_linuxOne@73844508]" name="f_2842_linuxOne" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
+        <test-method status="SKIP" signature="f_2842_linuxOne()[pri:0, instance:maven_package_2.Testcase2842_linuxOne@11e19edb]" name="f_2842_linuxOne" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f_2842_linuxOne -->
       </class> <!-- maven_package_2.Testcase2842_linuxOne -->
       <class name="maven_package_1.Test_Update_System_storage">
-        <test-method status="SKIP" signature="test_upd_from_app_SS()[pri:0, instance:maven_package_1.Test_Update_System_storage@29d322a6]" name="test_upd_from_app_SS" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
+        <test-method status="SKIP" signature="test_upd_from_app_SS()[pri:0, instance:maven_package_1.Test_Update_System_storage@7a043387]" name="test_upd_from_app_SS" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_upd_from_app_SS -->
       </class> <!-- maven_package_1.Test_Update_System_storage -->
       <class name="maven_package_2.Test_proxy_voting_ss">
-        <test-method status="SKIP" signature="f_proxy_voting_ss()[pri:0, instance:maven_package_2.Test_proxy_voting_ss@361344a8]" name="f_proxy_voting_ss" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
+        <test-method status="SKIP" signature="f_proxy_voting_ss()[pri:0, instance:maven_package_2.Test_proxy_voting_ss@590864d2]" name="f_proxy_voting_ss" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f_proxy_voting_ss -->
       </class> <!-- maven_package_2.Test_proxy_voting_ss -->
+      <class name="maven_package_2.TestCase3505">
+        <test-method status="SKIP" signature="f_3505()[pri:0, instance:maven_package_2.TestCase3505@7a93069b]" name="f_3505" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f_3505 -->
+      </class> <!-- maven_package_2.TestCase3505 -->
       <class name="maven_package_1.Test_GPP_Validation_System_storage">
-        <test-method status="FAIL" signature="gpp_validation_system()[pri:0, instance:maven_package_1.Test_GPP_Validation_System_storage@43c83579]" name="gpp_validation_system" is-config="true" duration-ms="0" started-at="2016-09-12T18:41:56Z" finished-at="2016-09-12T18:41:56Z">
-          <exception class="java.lang.NullPointerException">
+        <test-method status="FAIL" signature="gpp_validation_system()[pri:0, instance:maven_package_1.Test_GPP_Validation_System_storage@5fbc4e89]" name="gpp_validation_system" is-config="true" duration-ms="0" started-at="2016-09-13T14:49:56Z" finished-at="2016-09-13T14:49:56Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=52.0.2743.116)
+  (Driver info: chromedriver=2.11.298604 (75ea2fdb5c87f133a8e1b8da16f6091fb7d5321e),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 16 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ADMINIB-D2MM1F7', ip: '9.77.198.115', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+*** Element info: {Using=id, value=username}
+Session ID: 5851132e00b8986ddbff265adaf58c21
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\IBM_AD~1\AppData\Local\Temp\scoped_dir12776_14102}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=52.0.2743.116, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at resources.Login.login_bp(Login.java:39)
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=52.0.2743.116)
+  (Driver info: chromedriver=2.11.298604 (75ea2fdb5c87f133a8e1b8da16f6091fb7d5321e),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 16 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ADMINIB-D2MM1F7', ip: '9.77.198.115', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+*** Element info: {Using=id, value=username}
+Session ID: 5851132e00b8986ddbff265adaf58c21
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\IBM_AD~1\AppData\Local\Temp\scoped_dir12776_14102}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=52.0.2743.116, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at resources.Login.login_bp(Login.java:33)
 	at maven_package_1.Test_GPP_Validation_System_storage.gpp_validation_system(Test_GPP_Validation_System_storage.java:53)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
@@ -107,85 +147,31 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gpp_validation_system -->
-        <test-method status="SKIP" signature="Default_template_LinuxONE_update()[pri:0, instance:maven_package_1.Test_default_template_for_update_LinuxONE@5fbc4e89]" name="Default_template_LinuxONE_update" is-config="true" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
+        <test-method status="SKIP" signature="Default_template_LinuxONE_update()[pri:0, instance:maven_package_1.Test_default_template_for_update_LinuxONE@4f4f4ec4]" name="Default_template_LinuxONE_update" is-config="true" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Default_template_LinuxONE_update -->
-        <test-method status="SKIP" signature="gpp_validation_system()[pri:0, instance:maven_package_1.Test_GPP_Validation_System_storage@43c83579]" name="gpp_validation_system" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
+        <test-method status="SKIP" signature="gpp_validation_system()[pri:0, instance:maven_package_1.Test_GPP_Validation_System_storage@5fbc4e89]" name="gpp_validation_system" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gpp_validation_system -->
       </class> <!-- maven_package_1.Test_GPP_Validation_System_storage -->
-      <class name="maven_package_2.TestCase3505">
-        <test-method status="SKIP" signature="f_3505()[pri:0, instance:maven_package_2.TestCase3505@4a96e8fb]" name="f_3505" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f_3505 -->
-      </class> <!-- maven_package_2.TestCase3505 -->
       <class name="maven_package_1.Test_Incomplete_reprocess_system_storage">
-        <test-method status="SKIP" signature="Test_Inc_Rep()[pri:0, instance:maven_package_1.Test_Incomplete_reprocess_system_storage@58fe09a1]" name="Test_Inc_Rep" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
+        <test-method status="SKIP" signature="Test_Inc_Rep()[pri:0, instance:maven_package_1.Test_Incomplete_reprocess_system_storage@45590b70]" name="Test_Inc_Rep" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Inc_Rep -->
-        <test-method status="SKIP" signature="Inc_systemstorage()[pri:0, instance:maven_package_1.Test_Incomplete_reprocess_system_storage@58fe09a1]" name="Inc_systemstorage" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
+        <test-method status="SKIP" signature="Inc_systemstorage()[pri:0, instance:maven_package_1.Test_Incomplete_reprocess_system_storage@45590b70]" name="Inc_systemstorage" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Inc_systemstorage -->
       </class> <!-- maven_package_1.Test_Incomplete_reprocess_system_storage -->
       <class name="maven_package_1.Test_default_template_for_extend_power_system">
-        <test-method status="SKIP" signature="login_w3(org.openqa.selenium.chrome.ChromeDriver)[pri:0, instance:maven_package_1.Test_default_template_for_extend_power_system@d2ebdb3]" name="login_w3" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Method login_w3 requires 1 parameters but 0 were supplied in the @Test annotation.]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Method login_w3 requires 1 parameters but 0 were supplied in the @Test annotation.
-	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:191)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:127)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:376)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:451)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1274)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:989)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1079)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:158)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:606)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
-	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
-	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login_w3 -->
-        <test-method status="SKIP" signature="login_bp(org.openqa.selenium.chrome.ChromeDriver)[pri:0, instance:maven_package_1.Test_default_template_for_extend_power_system@d2ebdb3]" name="login_bp" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
+        <test-method status="SKIP" signature="login_bp(org.openqa.selenium.chrome.ChromeDriver)[pri:0, instance:maven_package_1.Test_default_template_for_extend_power_system@43c83579]" name="login_bp" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -233,47 +219,11 @@ Method login_bp requires 1 parameters but 0 were supplied in the @Test annotatio
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_bp -->
-        <test-method status="SKIP" signature="Default_template_power_extend()[pri:0, instance:maven_package_1.Test_default_template_for_extend_power_system@d2ebdb3]" name="Default_template_power_extend" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
+        <test-method status="SKIP" signature="Default_template_power_extend()[pri:0, instance:maven_package_1.Test_default_template_for_extend_power_system@43c83579]" name="Default_template_power_extend" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Default_template_power_extend -->
-      </class> <!-- maven_package_1.Test_default_template_for_extend_power_system -->
-      <class name="maven_package_2.TestCase3497_linuxOne">
-        <test-method status="SKIP" signature="f_3497_linuxOne()[pri:0, instance:maven_package_2.TestCase3497_linuxOne@7980daa6]" name="f_3497_linuxOne" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f_3497_linuxOne -->
-      </class> <!-- maven_package_2.TestCase3497_linuxOne -->
-      <class name="maven_package_2.Test_MSA_microflow">
-        <test-method status="SKIP" signature="f_MSA_microflow()[pri:0, instance:maven_package_2.Test_MSA_microflow@3d15d862]" name="f_MSA_microflow" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f_MSA_microflow -->
-      </class> <!-- maven_package_2.Test_MSA_microflow -->
-      <class name="maven_package_2.Test_BlanketMicroflow_ps">
-        <test-method status="SKIP" signature="f_BlanketMicroflow_ps()[pri:0, instance:maven_package_2.Test_BlanketMicroflow_ps@16f91dd6]" name="f_BlanketMicroflow_ps" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f_BlanketMicroflow_ps -->
-      </class> <!-- maven_package_2.Test_BlanketMicroflow_ps -->
-      <class name="maven_package_2.TestCase3505_LinuxOne">
-        <test-method status="SKIP" signature="f_3505_LinuxOne()[pri:0, instance:maven_package_2.TestCase3505_LinuxOne@7999dcfe]" name="f_3505_LinuxOne" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f_3505_LinuxOne -->
-      </class> <!-- maven_package_2.TestCase3505_LinuxOne -->
-      <class name="maven_package_1.Test_Rejected_reprocess_power_system">
-        <test-method status="SKIP" signature="Test_Rej_Rep()[pri:0, instance:maven_package_1.Test_Rejected_reprocess_power_system@7da03d77]" name="Test_Rej_Rep" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Rej_Rep -->
-      </class> <!-- maven_package_1.Test_Rejected_reprocess_power_system -->
-      <class name="maven_package_1.Test_Submit_Extension_form_powersystem">
-        <test-method status="SKIP" signature="Submit_extension_powersystem()[pri:0, instance:maven_package_1.Test_Submit_Extension_form_powersystem@73c71c75]" name="Submit_extension_powersystem" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Submit_extension_powersystem -->
-        <test-method status="SKIP" signature="login_w3(org.openqa.selenium.chrome.ChromeDriver)[pri:0, instance:maven_package_1.Test_Submit_Extension_form_powersystem@73c71c75]" name="login_w3" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
+        <test-method status="SKIP" signature="login_w3(org.openqa.selenium.chrome.ChromeDriver)[pri:0, instance:maven_package_1.Test_default_template_for_extend_power_system@43c83579]" name="login_w3" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -321,7 +271,91 @@ Method login_w3 requires 1 parameters but 0 were supplied in the @Test annotatio
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_w3 -->
-        <test-method status="SKIP" signature="login_bp(org.openqa.selenium.chrome.ChromeDriver)[pri:0, instance:maven_package_1.Test_Submit_Extension_form_powersystem@73c71c75]" name="login_bp" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
+      </class> <!-- maven_package_1.Test_default_template_for_extend_power_system -->
+      <class name="maven_package_2.TestCase3497_linuxOne">
+        <test-method status="SKIP" signature="f_3497_linuxOne()[pri:0, instance:maven_package_2.TestCase3497_linuxOne@7b0aab7d]" name="f_3497_linuxOne" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f_3497_linuxOne -->
+      </class> <!-- maven_package_2.TestCase3497_linuxOne -->
+      <class name="maven_package_2.Test_MSA_microflow">
+        <test-method status="SKIP" signature="f_MSA_microflow()[pri:0, instance:maven_package_2.Test_MSA_microflow@16f91dd6]" name="f_MSA_microflow" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f_MSA_microflow -->
+      </class> <!-- maven_package_2.Test_MSA_microflow -->
+      <class name="maven_package_2.Test_BlanketMicroflow_ps">
+        <test-method status="SKIP" signature="f_BlanketMicroflow_ps()[pri:0, instance:maven_package_2.Test_BlanketMicroflow_ps@4282c39f]" name="f_BlanketMicroflow_ps" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f_BlanketMicroflow_ps -->
+      </class> <!-- maven_package_2.Test_BlanketMicroflow_ps -->
+      <class name="maven_package_2.TestCase3505_LinuxOne">
+        <test-method status="SKIP" signature="f_3505_LinuxOne()[pri:0, instance:maven_package_2.TestCase3505_LinuxOne@4a96e8fb]" name="f_3505_LinuxOne" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f_3505_LinuxOne -->
+      </class> <!-- maven_package_2.TestCase3505_LinuxOne -->
+      <class name="maven_package_1.Test_Rejected_reprocess_power_system">
+        <test-method status="SKIP" signature="Test_Rej_Rep()[pri:0, instance:maven_package_1.Test_Rejected_reprocess_power_system@e2a56ac]" name="Test_Rej_Rep" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Rej_Rep -->
+      </class> <!-- maven_package_1.Test_Rejected_reprocess_power_system -->
+      <class name="maven_package_1.Test_Submit_Extension_form_powersystem">
+        <test-method status="SKIP" signature="Submit_extension_powersystem()[pri:0, instance:maven_package_1.Test_Submit_Extension_form_powersystem@23239010]" name="Submit_extension_powersystem" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Submit_extension_powersystem -->
+        <test-method status="SKIP" signature="login_w3(org.openqa.selenium.chrome.ChromeDriver)[pri:0, instance:maven_package_1.Test_Submit_Extension_form_powersystem@23239010]" name="login_w3" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method login_w3 requires 1 parameters but 0 were supplied in the @Test annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method login_w3 requires 1 parameters but 0 were supplied in the @Test annotation.
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:191)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:127)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:376)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:451)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1274)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:989)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1079)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:158)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_w3 -->
+        <test-method status="SKIP" signature="login_bp(org.openqa.selenium.chrome.ChromeDriver)[pri:0, instance:maven_package_1.Test_Submit_Extension_form_powersystem@23239010]" name="login_bp" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -370,96 +404,96 @@ Method login_bp requires 1 parameters but 0 were supplied in the @Test annotatio
           </reporter-output>
         </test-method> <!-- login_bp -->
       </class> <!-- maven_package_1.Test_Submit_Extension_form_powersystem -->
-      <class name="maven_package_2.Test_MSA_microflow_ps">
-        <test-method status="SKIP" signature="f_MSA_microflow_ps()[pri:0, instance:maven_package_2.Test_MSA_microflow_ps@7e8bdff4]" name="f_MSA_microflow_ps" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f_MSA_microflow_ps -->
-      </class> <!-- maven_package_2.Test_MSA_microflow_ps -->
       <class name="maven_package_1.Test_Submit_Extension_form_systemstorage">
-        <test-method status="SKIP" signature="Submit_extension_systemstorage()[pri:0, instance:maven_package_1.Test_Submit_Extension_form_systemstorage@151d80b5]" name="Submit_extension_systemstorage" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
+        <test-method status="SKIP" signature="Submit_extension_systemstorage()[pri:0, instance:maven_package_1.Test_Submit_Extension_form_systemstorage@73c71c75]" name="Submit_extension_systemstorage" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Submit_extension_systemstorage -->
       </class> <!-- maven_package_1.Test_Submit_Extension_form_systemstorage -->
+      <class name="maven_package_2.Test_MSA_microflow_ps">
+        <test-method status="SKIP" signature="f_MSA_microflow_ps()[pri:0, instance:maven_package_2.Test_MSA_microflow_ps@65312942]" name="f_MSA_microflow_ps" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f_MSA_microflow_ps -->
+      </class> <!-- maven_package_2.Test_MSA_microflow_ps -->
       <class name="maven_package_2.Test_BlanketMicroflow_linuxOne">
-        <test-method status="SKIP" signature="f_BlanketMicroflow_linuxOne()[pri:0, instance:maven_package_2.Test_BlanketMicroflow_linuxOne@4282c39f]" name="f_BlanketMicroflow_linuxOne" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
+        <test-method status="SKIP" signature="f_BlanketMicroflow_linuxOne()[pri:0, instance:maven_package_2.Test_BlanketMicroflow_linuxOne@2cf5e0f0]" name="f_BlanketMicroflow_linuxOne" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f_BlanketMicroflow_linuxOne -->
       </class> <!-- maven_package_2.Test_BlanketMicroflow_linuxOne -->
       <class name="maven_package_1.Test_Update_LinuxONE">
-        <test-method status="SKIP" signature="test_upd_from_app_linuxone()[pri:0, instance:maven_package_1.Test_Update_LinuxONE@43ecf5e7]" name="test_upd_from_app_linuxone" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
+        <test-method status="SKIP" signature="test_upd_from_app_linuxone()[pri:0, instance:maven_package_1.Test_Update_LinuxONE@151d80b5]" name="test_upd_from_app_linuxone" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_upd_from_app_linuxone -->
       </class> <!-- maven_package_1.Test_Update_LinuxONE -->
       <class name="maven_package_2.Test_proxy_voting_linuxOne">
-        <test-method status="SKIP" signature="f_proxy_voting_linuxOne()[pri:0, instance:maven_package_2.Test_proxy_voting_linuxOne@111c4d14]" name="f_proxy_voting_linuxOne" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
+        <test-method status="SKIP" signature="f_proxy_voting_linuxOne()[pri:0, instance:maven_package_2.Test_proxy_voting_linuxOne@7e8bdff4]" name="f_proxy_voting_linuxOne" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f_proxy_voting_linuxOne -->
       </class> <!-- maven_package_2.Test_proxy_voting_linuxOne -->
       <class name="maven_package_2.TestCase2842">
-        <test-method status="SKIP" signature="f_2842()[pri:0, instance:maven_package_2.TestCase2842@11e19edb]" name="f_2842" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
+        <test-method status="SKIP" signature="f_2842()[pri:0, instance:maven_package_2.TestCase2842@6487d5bd]" name="f_2842" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f_2842 -->
       </class> <!-- maven_package_2.TestCase2842 -->
       <class name="maven_package_2.TestCase3497_power">
-        <test-method status="SKIP" signature="f_3497_power()[pri:0, instance:maven_package_2.TestCase3497_power@7a93069b]" name="f_3497_power" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
+        <test-method status="SKIP" signature="f_3497_power()[pri:0, instance:maven_package_2.TestCase3497_power@7980daa6]" name="f_3497_power" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f_3497_power -->
       </class> <!-- maven_package_2.TestCase3497_power -->
-      <class name="maven_package_2.TestAddComment">
-        <test-method status="SKIP" signature="f()[pri:0, instance:maven_package_2.TestAddComment@6487d5bd]" name="f" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- maven_package_2.TestAddComment -->
       <class name="maven_package_2.TestCase2842_power">
-        <test-method status="SKIP" signature="f_2842_power()[pri:0, instance:maven_package_2.TestCase2842_power@70d04b77]" name="f_2842_power" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
+        <test-method status="SKIP" signature="f_2842_power()[pri:0, instance:maven_package_2.TestCase2842_power@73844508]" name="f_2842_power" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f_2842_power -->
       </class> <!-- maven_package_2.TestCase2842_power -->
-      <class name="maven_package_1.Test_GPP_Validation_Power_System">
-        <test-method status="SKIP" signature="gpp_validation()[pri:0, instance:maven_package_1.Test_GPP_Validation_Power_System@45590b70]" name="gpp_validation" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
+      <class name="maven_package_2.TestAddComment">
+        <test-method status="SKIP" signature="f()[pri:0, instance:maven_package_2.TestAddComment@29d322a6]" name="f" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- gpp_validation -->
-      </class> <!-- maven_package_1.Test_GPP_Validation_Power_System -->
-      <class name="maven_package_2.TestCase3497">
-        <test-method status="SKIP" signature="f_3497()[pri:0, instance:maven_package_2.TestCase3497@7b0aab7d]" name="f_3497" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f_3497 -->
-      </class> <!-- maven_package_2.TestCase3497 -->
+        </test-method> <!-- f -->
+      </class> <!-- maven_package_2.TestAddComment -->
       <class name="maven_package_2.Test_BlanketMicroflow">
-        <test-method status="SKIP" signature="f_BlanketMicroflow()[pri:0, instance:maven_package_2.Test_BlanketMicroflow@2cf5e0f0]" name="f_BlanketMicroflow" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
+        <test-method status="SKIP" signature="f_BlanketMicroflow()[pri:0, instance:maven_package_2.Test_BlanketMicroflow@95adf3c]" name="f_BlanketMicroflow" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f_BlanketMicroflow -->
       </class> <!-- maven_package_2.Test_BlanketMicroflow -->
-      <class name="maven_package_2.TestCode">
-        <test-method status="SKIP" signature="f()[pri:0, instance:maven_package_2.TestCode@23d57fa]" name="f" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
+      <class name="maven_package_2.TestCase3497">
+        <test-method status="SKIP" signature="f_3497()[pri:0, instance:maven_package_2.TestCase3497@70d04b77]" name="f_3497" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- maven_package_2.TestCode -->
+        </test-method> <!-- f_3497 -->
+      </class> <!-- maven_package_2.TestCase3497 -->
+      <class name="maven_package_1.Test_GPP_Validation_Power_System">
+        <test-method status="SKIP" signature="gpp_validation()[pri:0, instance:maven_package_1.Test_GPP_Validation_Power_System@77a83987]" name="gpp_validation" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gpp_validation -->
+      </class> <!-- maven_package_1.Test_GPP_Validation_Power_System -->
       <class name="maven_package_1.Test_Submit_Extension_form_LinuxONE">
-        <test-method status="SKIP" signature="Submit_extension_LinuxONE()[pri:0, instance:maven_package_1.Test_Submit_Extension_form_LinuxONE@23239010]" name="Submit_extension_LinuxONE" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
+        <test-method status="SKIP" signature="Submit_extension_LinuxONE()[pri:0, instance:maven_package_1.Test_Submit_Extension_form_LinuxONE@7da03d77]" name="Submit_extension_LinuxONE" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Submit_extension_LinuxONE -->
       </class> <!-- maven_package_1.Test_Submit_Extension_form_LinuxONE -->
       <class name="maven_package_1.Test_Update_Power_system">
-        <test-method status="SKIP" signature="test_upd_from_app_PS()[pri:0, instance:maven_package_1.Test_Update_Power_system@7a043387]" name="test_upd_from_app_PS" duration-ms="0" started-at="2016-09-12T18:42:07Z" finished-at="2016-09-12T18:42:07Z">
+        <test-method status="SKIP" signature="test_upd_from_app_PS()[pri:0, instance:maven_package_1.Test_Update_Power_system@43ecf5e7]" name="test_upd_from_app_PS" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_upd_from_app_PS -->
       </class> <!-- maven_package_1.Test_Update_Power_system -->
+      <class name="maven_package_2.TestCode">
+        <test-method status="SKIP" signature="f()[pri:0, instance:maven_package_2.TestCode@647be610]" name="f" duration-ms="0" started-at="2016-09-13T14:50:04Z" finished-at="2016-09-13T14:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- maven_package_2.TestCode -->
     </test> <!-- Command line test -->
   </suite> <!-- Command line suite -->
 </testng-results>
