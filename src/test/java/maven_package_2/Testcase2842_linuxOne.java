@@ -58,7 +58,7 @@ public class Testcase2842_linuxOne {
 		driver = new ChromeDriver(); */
 		
 		//To login BP portal
-		Login page_login = new Login();
+		Test_Login page_login = new Test_Login();
 		page_login.BP_portal_login(driver, prop1);
 		
 		

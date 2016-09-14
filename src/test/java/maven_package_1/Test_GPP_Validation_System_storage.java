@@ -26,9 +26,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import resources.Excel_input;
-import resources.Login;
-import resources.Property_use;
+import resources.Test_Excel_input;
+import resources.Test_Login;
+import resources.Test_Property_use;
 //import java.util.concurrent.TimeUnit;
 //import com.gargoylesoftware.htmlunit.javascript.host.file.File;
 
@@ -45,16 +45,16 @@ public class Test_GPP_Validation_System_storage  {
 	
 	 @Test
   public void gpp_validation_system() throws Exception {
-	  Property_use obj1 = new Property_use();
+	  Test_Property_use obj1 = new Test_Property_use();
 	  Properties prop2 = obj1.property();
 	  System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
 		 ChromeDriver driver=new ChromeDriver();
-	  Login obj = new Login();
+	  Test_Login obj = new Test_Login();
 	  obj.login_bp(driver);
 	  driver.manage().timeouts().implicitlyWait(180, TimeUnit.SECONDS);
 	  
   	  XSSFSheet sh = null;
-	  Excel_input testObj = new Excel_input();
+	  Test_Excel_input testObj = new Test_Excel_input();
 	  sh = testObj.readExcel();
 	  System.out.println("login");
 	  

@@ -49,8 +49,8 @@ public class Test_BlanketMicroflow {
 		}
 		
 		//instance of login
-		Login login = new Login();
-		login.w3_login(driver, prop1);
+		Test_Login test_Login = new Test_Login();
+		test_Login.w3_login(driver, prop1);
 		
 		WebDriverWait owait = new WebDriverWait(driver, 180);
 		

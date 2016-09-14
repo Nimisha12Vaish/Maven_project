@@ -66,8 +66,8 @@ public void startBrowser(){
 	  
 	 
 	  //To login BP portal (instance of Login class)
-	  Login login = new Login();
-	  login.BP_portal_login(driver, prop1);
+	  Test_Login test_Login = new Test_Login();
+	  test_Login.BP_portal_login(driver, prop1);
 	  
 	  driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 	  
@@ -249,7 +249,7 @@ public void startBrowser(){
 		
 		 
 		 // TO VERIFY ON W3 SITE
-		 login.w3_login(this.driver, this.prop1);
+		 test_Login.w3_login(this.driver, this.prop1);
 		 driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 		  
 		 driver.findElement(By.id(prop1.getProperty("w3_reg_id"))).sendKeys(reg_no_detail);

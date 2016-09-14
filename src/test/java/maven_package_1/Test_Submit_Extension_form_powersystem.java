@@ -24,12 +24,12 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
-import resources.Excel_input;
-import resources.Login;
-import resources.Property_use;
-import resources.W3_main;
+import resources.Test_Excel_input;
+import resources.Test_Login;
+import resources.Test_Property_use;
+import resources.Test_W3_main;
 
-public class Test_Submit_Extension_form_powersystem extends Login {
+public class Test_Submit_Extension_form_powersystem extends Test_Login {
 	ChromeDriver driver;
 	//Properties prop = null;
 	/*@BeforeTest
@@ -43,12 +43,12 @@ public class Test_Submit_Extension_form_powersystem extends Login {
   @Test
   public void Submit_extension_powersystem() throws Exception {
 	  
-	  Property_use obj1 = new Property_use();
+	  Test_Property_use obj1 = new Test_Property_use();
 	  Properties prop2 = obj1.property();
 	  System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
 		 ChromeDriver driver=new ChromeDriver();
 	 
-	  W3_main obj = new W3_main();
+	  Test_W3_main obj = new Test_W3_main();
 	  String RequestNo = obj.W3e2e_assign_powersystem(driver);
 	  
 	  WebDriverWait wait=new WebDriverWait(driver, 180);

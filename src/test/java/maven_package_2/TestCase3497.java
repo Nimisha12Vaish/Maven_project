@@ -74,8 +74,8 @@ public void startBrowser(){
 	  
 	 
 	  //To login BP portal (instance of Login class)
-	  Login login = new Login();
-	  login.BP_portal_login(driver, prop1);
+	  Test_Login test_Login = new Test_Login();
+	  test_Login.BP_portal_login(driver, prop1);
 	  
 	  driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 	  

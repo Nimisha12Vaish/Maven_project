@@ -21,11 +21,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import resources.Excel_input;
-import resources.Login;
-import resources.Property_use;
+import resources.Test_Excel_input;
+import resources.Test_Login;
+import resources.Test_Property_use;
 
-public class Test_default_template_for_extend_power_system extends Login {
+public class Test_default_template_for_extend_power_system extends Test_Login {
 	ChromeDriver driver;
 	//Properties prop = null;
 	/*@BeforeTest
@@ -36,20 +36,20 @@ public class Test_default_template_for_extend_power_system extends Login {
 	}*/
   @Test
   public void Default_template_power_extend() throws Exception {
-	  Property_use obj1 = new Property_use();
+	  Test_Property_use obj1 = new Test_Property_use();
 	  Properties prop2 = obj1.property();
 	  System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
 		 ChromeDriver driver=new ChromeDriver();
 	  
   	  XSSFSheet sh = null;
-	  Excel_input testObj = new Excel_input();
+	  Test_Excel_input testObj = new Test_Excel_input();
 	  sh = testObj.readExcel();
 	  
 	 // BP_Portal obj3 = new BP_Portal();
 	  //String RegNo = obj3.BPportal();
 	  
 	  //driver.manage().timeouts().implicitlyWait(180, TimeUnit.SECONDS);
-	Login obj = new Login();
+	Test_Login obj = new Test_Login();
 	  obj.login_w3(driver);
 	  
 	  WebDriverWait wait = new WebDriverWait(driver, 30);

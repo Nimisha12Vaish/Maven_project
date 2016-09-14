@@ -53,7 +53,7 @@ public class Test_approve_ps {
 		}
 		
 		//using Annonymous object of Login (If you have to use an object only once, annonymous object is a good approach.) 
-		new Login().w3_login(driver, prop1);
+		new Test_Login().w3_login(driver, prop1);
 		
 		WebDriverWait owait = new WebDriverWait(driver, 180);
 		

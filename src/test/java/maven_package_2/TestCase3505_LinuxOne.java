@@ -60,7 +60,7 @@ public class TestCase3505_LinuxOne {
 	}
 	  
 	  //to login w3 (instance of Login class)
-	  Login page_login = new Login();
+	  Test_Login page_login = new Test_Login();
 	  page_login.w3_login(this.driver, this.prop1);
 
 	 /*

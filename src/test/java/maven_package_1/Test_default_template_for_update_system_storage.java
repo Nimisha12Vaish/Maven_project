@@ -22,9 +22,9 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import resources.Excel_input;
-import resources.Login;
-import resources.Property_use;
+import resources.Test_Excel_input;
+import resources.Test_Login;
+import resources.Test_Property_use;
 
 public class Test_default_template_for_update_system_storage {
 	ChromeDriver driver;
@@ -38,7 +38,7 @@ public class Test_default_template_for_update_system_storage {
 	}*/
   @Test
   public void Default_template_LinuxONE_update() throws Exception {
-	  Property_use obj1 = new Property_use();
+	  Test_Property_use obj1 = new Test_Property_use();
 	  Properties prop2 = obj1.property();
 	  System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
 		 ChromeDriver driver=new ChromeDriver();
@@ -47,14 +47,14 @@ public class Test_default_template_for_update_system_storage {
 	  //driver.manage().timeouts().implicitlyWait(180, TimeUnit.SECONDS);
 	  
   	  XSSFSheet sh = null;
-	  Excel_input testObj = new Excel_input();
+	  Test_Excel_input testObj = new Test_Excel_input();
 	  sh = testObj.readExcel();
 	  
 	 // BP_Portal obj3 = new BP_Portal();
 	  //String RegNo = obj3.BPportal();
 	  
 	  //driver.manage().timeouts().implicitlyWait(180, TimeUnit.SECONDS);
-	Login obj = new Login();
+	Test_Login obj = new Test_Login();
 	  obj.login_w3(driver);
 	  //Thread.sleep(90000);
 	  WebDriverWait wait = new WebDriverWait(driver, 30);

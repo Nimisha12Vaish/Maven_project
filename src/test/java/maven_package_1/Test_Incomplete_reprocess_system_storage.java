@@ -18,12 +18,12 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import resources.Excel_input;
-import resources.Login;
-import resources.Property_use;
-import maven_package_3.Incomplete_System_storage;
+import resources.Test_Excel_input;
+import resources.Test_Login;
+import resources.Test_Property_use;
+import maven_package_3.Test_Incomplete_System_storage;
 
-public class Test_Incomplete_reprocess_system_storage extends Incomplete_System_storage {
+public class Test_Incomplete_reprocess_system_storage extends Test_Incomplete_System_storage {
  
 	ChromeDriver driver;
 	//Properties prop = null;
@@ -36,16 +36,16 @@ public class Test_Incomplete_reprocess_system_storage extends Incomplete_System_
 	
 	 @Test
   public void Test_Inc_Rep() throws Exception {
-	  Property_use obj1 = new Property_use();
+	  Test_Property_use obj1 = new Test_Property_use();
 	  Properties prop2 = obj1.property();
 	  System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
 		 ChromeDriver driver=new ChromeDriver();
-	  Login obj = new Login();
+	  Test_Login obj = new Test_Login();
 	  obj.login_w3(driver);
 	  driver.manage().timeouts().implicitlyWait(180, TimeUnit.SECONDS);
 	  
   	  XSSFSheet sh = null;
-	  Excel_input testObj = new Excel_input();
+	  Test_Excel_input testObj = new Test_Excel_input();
 	  sh = testObj.readExcel();
 	  
 	  driver.findElement(By.linkText(prop2.getProperty("w3_registrations_tab"))).click();
