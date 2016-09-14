@@ -1,5 +1,5 @@
 #surefire
-#Tue Sep 13 14:49:54 IST 2016
+#Wed Sep 14 11:42:22 IST 2016
 enableAssertions=true
 testSuiteDefinitionTestSourceDirectory=C\:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\java
 classPathUrl.35=C\:\\Users\\IBM_ADMIN\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-testng-utils\\2.10\\surefire-testng-utils-2.10.jar
