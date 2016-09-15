@@ -3,29 +3,17 @@
 <suite name="Suite" parallel="none">
   <test name="Test">
     <classes>
-      <class name="maven_package_1.DealReg_cannot_BlnktComplete"/>
-      <class name="maven_package_1.DealReg_cannot_DupeComplete"/>
-      <class name="maven_package_1.DupeReview_cannot_Reassigned"/>
-      <class name="maven_package_1.HA_comp_comments"/>
-      <class name="maven_package_1.DealReg_cannot_IGSResponse"/>
-      <class name="maven_package_1.Email_Notification_Dupe"/>
-      <class name="maven_package_1.Form_moving_to_Initial_Review_systemstorage"/>
-      <class name="maven_package_1.dupe_comp_comments"/>
-      <class name="maven_package_1.blanket_comp_comments"/>
-      <class name="maven_package_1.approve_ps"/>
-      <class name="maven_package_1.BlanketCheck_cannot_Reassigned"/>
-      <class name="maven_package_1.Form_moving_to_Initial_Review_LinuxONE"/>
-      <class name="maven_package_1.Federal_resp_comments"/>
-      <class name="maven_package_1.Email_Notification_Blanket_ps"/>
-      <class name="maven_package_1.IGS_resp_comments"/>
-      <class name="maven_package_1.InitialReview_cannot_Reassigned"/>
-      <class name="maven_package_1.IGSApproval_cannotbeReassigned_withoutIGS"/>
-      <class name="maven_package_1.Email_Notification_IGS"/>
-      <class name="maven_package_1.Email_Notification_MSAcomp"/>
-      <class name="maven_package_1.Form_moving_to_Initial_Review_Powersystem"/>
-      <class name="maven_package_1.Email_Notification_initial"/>
-      <class name="maven_package_1.dupli_HA_comp_cmnts"/>
-      <class name="maven_package_1.FederalCheck_cannot_Reassigned"/>
+      <class name="maven_package_1.Test_dupli_HA_comp_cmnts"/>
+      <class name="maven_package_1.Test_DealReg_cannot_IGSResponse"/>
+      <class name="maven_package_1.Test_dupe_comp_comments"/>
+      <class name="maven_package_1.Test_DupeReview_cannot_Reassigned"/>
+      <class name="maven_package_1.Test_DealReg_cannot_DupeComplete"/>
+      <class name="maven_package_1.Test_DealReg_cannot_BlnktComplete"/>
+      <class name="maven_package_1.Test_default_template_for_update_system_storage"/>
+      <class name="maven_package_1.Test_default_template_for_extend_power_system"/>
+      <class name="maven_package_1.Test_blanket_comp_comments"/>
+      <class name="maven_package_1.Test_BlanketCheck_cannot_Reassigned"/>
+      <class name="maven_package_1.Test_default_template_for_update_LinuxONE"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
