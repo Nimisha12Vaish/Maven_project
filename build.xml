@@ -108,6 +108,20 @@
             <classpath refid="Maven_project.classpath"/>
         </javac>
     </target>
-              	
+              	<!-- Compile the java code from ${src} into ${bin} -->
+              		<target name="compile" depends="clean">
+              			<javac srcdir="${src}" classpathref="Maven_project.classpath" includeAntRuntime="No" destdir="${bin}" />
+              			<echo> /* Compiled Directory Classes */ </echo>
+              		</target>
+              		
+              		<!-- Runs the file and generates Reportng report for TestNG-->
+              		<taskdef name="testng" classname="org.testng.TestNGAntTask" classpathref="Maven_project.classpath" />
+              		
+              		<target name="testng-execution" depends="compile">
+              			<mkdir dir="${testng-report-dir}" />
+              			<testng outputdir="${testng-report-dir}" classpathref="Maven_project.classpath" useDefaultListeners="true">
+              				<xmlfileset dir="${basedir}" includes="testng.xml" />
+              			</testng>
+              		</target>      	
     <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
 </project>
