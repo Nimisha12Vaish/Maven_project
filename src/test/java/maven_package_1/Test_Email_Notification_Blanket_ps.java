@@ -100,7 +100,7 @@ public class Test_Email_Notification_Blanket_ps {
 			System.out.println(flag); 
 		  }
 		  Assert.assertTrue(flag, "mail template page was not found");
-		  driver.findElement(By.cssSelector("input[id^='ema']")).click();
+		  //driver.findElement(By.cssSelector("input[id^='ema']")).click();
 		  driver.quit();
 		  
 		  
