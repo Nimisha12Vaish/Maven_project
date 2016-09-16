@@ -3,6 +3,7 @@
 <suite name="Suite" parallel="false">
   <test name="Test">
     <classes>
+      <class name="maven_package_1.Test_Email_Notification_Blanket_ps"/>
       <class name="maven_package_1.Test_BlanketCheck_cannot_Reassigned"/>
     </classes>
   </test> <!-- Test -->
