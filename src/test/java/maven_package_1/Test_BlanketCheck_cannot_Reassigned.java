@@ -69,7 +69,7 @@ public class Test_BlanketCheck_cannot_Reassigned {
 		
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(prop.getProperty("W3_select_Blanket_check")))).click();  //blanket check
 		Thread.sleep(3000);
-		System.out.println(wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(prop.getProperty("W3_managetask_task_getText")))).getText());  //blanket check get text
+		//System.out.println(wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(prop.getProperty("W3_managetask_task_getText")))).getText());  //blanket check get text
 		//wait.until(
 				//ExpectedConditions.presenceOfElementLocated(
 				//		By.xpath(prop.getProperty("W3_Admin_managetask_apply"))));  //apply
