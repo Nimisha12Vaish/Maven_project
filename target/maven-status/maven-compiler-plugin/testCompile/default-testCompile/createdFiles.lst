@@ -20,7 +20,6 @@ maven_package_1\Test_InitialReview_cannot_Reassigned.class
 maven_package_2\TestAddComment.class
 maven_package_3\Test_Rejecetd_LinuxONE.class
 maven_package_2\Test_proxy_voting_power.class
-maven_package_1\Date_print.class
 resources\Test_Property_use.class
 maven_package_3\Test_Rejected_Power_system.class
 maven_package_3\Test_Rejected_system_storage.class
@@ -81,7 +80,6 @@ maven_package_1\Test_Federal_resp_comments.class
 maven_package_1\Test_dupe_comp_comments.class
 maven_package_1\Test_Submit_Extension_form_LinuxONE.class
 maven_package_1\Test_DealReg_cannot_BlnktComplete.class
-maven_package_1\Random_String.class
 maven_package_1\Test_reg_withdrawn_ps.class
 maven_package_1\Test_reprocess_rej.class
 maven_package_1\Test_reg_expire_ps.class

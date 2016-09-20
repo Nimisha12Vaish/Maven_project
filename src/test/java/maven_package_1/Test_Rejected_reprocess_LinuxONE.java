@@ -99,7 +99,7 @@ public class Test_Rejected_reprocess_LinuxONE {
 		  flag=true;
 	  }
 	  System.out.println(flag);
-	  AssertJUnit.assertTrue(flag);
+	 // AssertJUnit.assertTrue(flag);
 	 // wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(prop2.getProperty("first_ele_reg"))));
 	  driver.findElement(By.xpath(prop2.getProperty("Submission_text_box"))).sendKeys(Submission_id);
 	  driver.findElement(By.xpath(prop2.getProperty("Registrations_Apply_button"))).click();
