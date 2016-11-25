@@ -22,7 +22,7 @@ import org.testng.annotations.Test;
 
 import resources.Test_Excel_input;
 import resources.Test_Login;
-import resources.Test_Property_use;
+import resources.Property_of_class;
 import resources.Test_W3_main;
 
 public class Test_Update_LinuxONE {
@@ -36,7 +36,7 @@ public class Test_Update_LinuxONE {
 	
   @Test
   public void test_upd_from_app_linuxone() throws Exception {
-	  Test_Property_use obj1 = new Test_Property_use();
+	  Property_of_class obj1 = new Property_of_class();
 	  Properties prop2 = obj1.property();
 	  System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
 		 ChromeDriver driver=new ChromeDriver();

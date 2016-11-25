@@ -17,7 +17,7 @@ public class Test_Login {
   @Test
   public void login_bp(ChromeDriver driver) throws Exception {
 	 
-	  Test_Property_use obj1 = new Test_Property_use();
+	  Property_of_class obj1 = new Property_of_class();
 	  Properties prop2 = obj1.property();
   	  XSSFSheet sh = null;
   	  Test_Excel_input testObj = new Test_Excel_input();
@@ -45,7 +45,7 @@ public class Test_Login {
 	  	@Test
 		public void login_w3(ChromeDriver driver) throws Exception {
 	  		
-			 Test_Property_use obj1 = new Test_Property_use();
+			 Property_of_class obj1 = new Property_of_class();
 			  Properties prop2 = obj1.property();
 	  	  XSSFSheet sh = null;
 	  	  Test_Excel_input testObj = new Test_Excel_input();

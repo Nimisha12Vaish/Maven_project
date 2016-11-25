@@ -17,7 +17,7 @@ import org.testng.annotations.Test;
 import resources.Test_W3_main;
 import resources.Test_Excel_input;
 import resources.Test_Login;
-import resources.Test_Property_use;
+import resources.Property_of_class;
 
 public class Test_Incomplete_LinuxONE {
 	WebDriver driver;
@@ -34,7 +34,7 @@ public class Test_Incomplete_LinuxONE {
   public void Inc_LinuxONE() throws Exception {
 	  System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
 		 ChromeDriver driver=new ChromeDriver();
-	  Test_Property_use obj1 = new Test_Property_use();
+	  Property_of_class obj1 = new Property_of_class();
 	  Properties prop2 = obj1.property();
 	  Test_W3_main obj = new Test_W3_main();
 	  String RequestNo = obj.W3e2e_assign_LinuxONE(driver);

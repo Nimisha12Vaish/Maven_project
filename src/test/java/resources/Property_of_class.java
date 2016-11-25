@@ -12,9 +12,9 @@ import java.util.Properties;
 
 
 
-public class Test_Property_use {
+public class Property_of_class {
   @Test
-  public Properties property() {
+public Properties property() {
 	  
 	  File file = new File("C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\java\\property_files\\Property_file.properties");
 	  FileInputStream fileinput = null;
