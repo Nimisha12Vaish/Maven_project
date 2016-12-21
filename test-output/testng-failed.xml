@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <test name="Test(failed)" parallel="classes">
     <classes>
-      <class name="maven_package_2.Test_approve_ps">
+      <class name="maven_package_1.Test_Email_Notification_Blanket_ps">
         <methods>
-          <include name="f_proxy_voting_power"/>
+          <include name="Email_Notify_Blanket_PS"/>
         </methods>
-      </class> <!-- maven_package_2.Test_approve_ps -->
+      </class> <!-- maven_package_1.Test_Email_Notification_Blanket_ps -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

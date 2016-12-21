@@ -99,14 +99,14 @@ public class Test_DupeReview_cannot_Reassigned {
 		{
 			flag= true;
 			System.out.println("The test case pass as the value of the flag is: "+flag);
-			driver.close();
+			
 		}
 		else
 		{
 			flag=false;
 			System.out.println(flag);
 		}
-		
+		driver.quit();
 		Assert.assertTrue(flag, "fail");
 		}
 }
