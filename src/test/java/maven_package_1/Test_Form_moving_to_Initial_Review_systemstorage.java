@@ -10,7 +10,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import resources.Test_Excel_input;
-import resources.Test_Property_use;
+import resources.Property_of_class;
 import resources.Test_W3_main;
 
 public class Test_Form_moving_to_Initial_Review_systemstorage {
@@ -25,7 +25,7 @@ public class Test_Form_moving_to_Initial_Review_systemstorage {
 	}*/
   @Test
   public void IR_created_systemstorage() throws Exception {
-	  Test_Property_use obj1 = new Test_Property_use();
+	  Property_of_class obj1 = new Property_of_class();
 	  Properties prop2 = obj1.property();
 	  System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
 		 ChromeDriver driver=new ChromeDriver();

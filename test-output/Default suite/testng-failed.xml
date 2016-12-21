@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="maven_package_1.Test_GPP_Validation_System_storage">
+      <class name="maven_package_2.Test_approve_ps">
         <methods>
-          <include name="gpp_validation_system"/>
-          <include name="gpp_validation_system"/>
+          <include name="f_proxy_voting_power"/>
         </methods>
-      </class> <!-- maven_package_1.Test_GPP_Validation_System_storage -->
+      </class> <!-- maven_package_2.Test_approve_ps -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

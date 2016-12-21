@@ -24,7 +24,7 @@ import org.testng.annotations.Test;
 
 import resources.Test_Excel_input;
 import resources.Test_Login;
-import resources.Test_Property_use;
+import resources.Property_of_class;
 
 public class Test_default_template_for_update_system_storage {
 	ChromeDriver driver;
@@ -38,7 +38,7 @@ public class Test_default_template_for_update_system_storage {
 	}*/
   @Test
   public void Default_template_LinuxONE_update() throws Exception {
-	  Test_Property_use obj1 = new Test_Property_use();
+	  Property_of_class obj1 = new Property_of_class();
 	  Properties prop2 = obj1.property();
 	  System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
 		 ChromeDriver driver=new ChromeDriver();

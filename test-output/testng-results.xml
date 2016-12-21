@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="163217" started-at="2016-09-13T07:48:34Z" finished-at="2016-09-13T07:51:17Z">
+  <suite name="Suite" duration-ms="140912" started-at="2016-12-21T06:34:18Z" finished-at="2016-12-21T06:36:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="163217" started-at="2016-09-13T07:48:34Z" finished-at="2016-09-13T07:51:17Z">
-      <class name="maven_package_1.DealReg_cannot_BlnktComplete">
-        <test-method status="PASS" signature="DRR_cannot_Blanket_complete()[pri:0, instance:maven_package_1.DealReg_cannot_BlnktComplete@4c418cf]" name="DRR_cannot_Blanket_complete" duration-ms="163171" started-at="2016-09-13T13:18:34Z" finished-at="2016-09-13T13:21:17Z">
+    <test name="Test" duration-ms="140912" started-at="2016-12-21T06:34:18Z" finished-at="2016-12-21T06:36:39Z">
+      <class name="maven_package_1.Test_Email_Notification_Blanket_ps">
+        <test-method status="PASS" signature="Email_Notify_Blanket_PS()[pri:0, instance:maven_package_1.Test_Email_Notification_Blanket_ps@d30adbf]" name="Email_Notify_Blanket_PS" duration-ms="139834" started-at="2016-12-21T12:04:18Z" finished-at="2016-12-21T12:06:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DRR_cannot_Blanket_complete -->
-      </class> <!-- maven_package_1.DealReg_cannot_BlnktComplete -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- Email_Notify_Blanket_PS -->
+      </class> <!-- maven_package_1.Test_Email_Notification_Blanket_ps -->
+      <class name="maven_package_1.Test_BlanketCheck_cannot_Reassigned">
+        <test-method status="PASS" signature="Blanket_checked_cannot_be_reassigned()[pri:0, instance:maven_package_1.Test_BlanketCheck_cannot_Reassigned@4b670cd]" name="Blanket_checked_cannot_be_reassigned" duration-ms="140894" started-at="2016-12-21T12:04:18Z" finished-at="2016-12-21T12:06:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Blanket_checked_cannot_be_reassigned -->
+      </class> <!-- maven_package_1.Test_BlanketCheck_cannot_Reassigned -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

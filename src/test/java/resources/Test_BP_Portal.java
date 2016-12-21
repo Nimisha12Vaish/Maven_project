@@ -21,14 +21,14 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
-import resources.Test_Property_use;
+import resources.Property_of_class;
 
 public class Test_BP_Portal {
 	
   @Test
   public String BPportal_power_system(WebDriver driver) throws Exception {
 	  
-	  Test_Property_use obj1 = new Test_Property_use();
+	  Property_of_class obj1 = new Property_of_class();
 	  Properties prop2 = obj1.property();
  	
 	//  System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\Driver\\chromedriver.exe");
@@ -87,7 +87,7 @@ return RegNo;
   @Test
   public String BPportal_system_storage(WebDriver driver) throws Exception
   {
-	  Test_Property_use obj1 = new Test_Property_use();
+	  Property_of_class obj1 = new Property_of_class();
 	  Properties prop2 = obj1.property();
  	
 	//  System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\Driver\\chromedriver.exe");
@@ -146,7 +146,7 @@ return RegNo;
   
   @Test
   public String BPportal_LinuxONE(WebDriver driver) throws Exception{
-	  Test_Property_use obj1 = new Test_Property_use();
+	  Property_of_class obj1 = new Property_of_class();
 	  Properties prop2 = obj1.property();
  	
 	//  System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\Driver\\chromedriver.exe");

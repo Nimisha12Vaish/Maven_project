@@ -16,7 +16,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import resources.Test_Property_use;
+import resources.Property_of_class;
 import resources.Test_W3_main;
 
 public class Test_System_timer_Initial_Review_for_IBM_Input_LinuxONE {
@@ -26,7 +26,7 @@ public class Test_System_timer_Initial_Review_for_IBM_Input_LinuxONE {
 	  
 	  System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\git\\Maven_project\\src\\test\\resources\\chromedriver.exe");
 		 ChromeDriver driver=new ChromeDriver();
-	  Test_Property_use obj1 = new Test_Property_use();
+	  Property_of_class obj1 = new Property_of_class();
 	  Properties prop2 = obj1.property();
 	  Test_W3_main obj = new Test_W3_main();
 	  String RequestNo = obj.W3e2e_assign_LinuxONE(driver);
